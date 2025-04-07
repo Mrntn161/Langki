@@ -206,9 +206,8 @@ body {
             const hash9Digits = Math.abs(hash % 1000000000); // Lấy phần dư và chuyển thành 9 chữ số
             return "Langki " + hash9Digits.toString().padStart(9, '0'); // Đảm bảo luôn có đủ 9 chữ số
         }
-
-
-
+        const qrUrl = generateVietQR('MB', '9900128011997', 'Nguyễn Thiện Nghĩa', 75000, hash);
+        document.getElementById('paymentImage').src = qrUrl;
         // Thêm sự kiện cho nút "1 tháng"
         document.getElementById('tab1Month').addEventListener('click', () => {
             const qrUrl = generateVietQR('MB', '9900128011997', 'Nguyễn Thiện Nghĩa', 75000, hash);
@@ -240,6 +239,35 @@ body {
 
             return url;
         }
+        const CHECK_INTERVAL = 5000; // 5 giây mỗi lần kiểm tra
+        const TIMEOUT = 5 * 60 * 1000; // 5 phút
+        let startTime = Date.now();
+
+        const intervalId = setInterval(async () => {
+            let user = await getUser(userData.email);
+            const elapsedTime = Date.now() - startTime;
+
+            if (userData.expire_date !== user.expire_date) {
+                console.log("Giao dịch thành công");
+                let apiKeyInfor = userData.keys[0].includes("...") ? userData.keys[0] + "(Lưu ý: key API được gia hạn không thay đổi với key cũ đã cấp cho người dùng)" : userData.keys[0]
+                container.innerHTML = `
+                    <h2>Gia hạn tài khoản thành công</h2>
+                    <div class="success-icon">✅</div>
+                    <p>Thông tin tài khoản</p>
+                    <p>Email: ${userData.email}</p>
+                    <p>API Key: ${apiKeyInfor}</p>
+                    <p>Ngày hết hạn: ${user.expire_date} (YYYY-MM-DD)</p>
+                    <p>Thank you, <strong>${user.email}</strong>!</p>
+                `;
+                clearInterval(intervalId);
+            } else if (elapsedTime >= TIMEOUT) {
+                console.log('Đã quá 5 phút nhưng hệ thống không ghi nhận giao dịch.');
+                container.innerHTML = "Đã quá 5 phút nhưng hệ thống không ghi nhận giao dịch. Vui lòng liên hệ qua địa chỉ email <strong>mrntn281@gmail.com<strong> sau để được hướng dẫn."
+                clearInterval(intervalId);
+            } else {
+                console.log('Giá trị chưa thay đổi, tiếp tục kiểm tra...');
+            }
+        }, CHECK_INTERVAL);
     }
     async function getUser(email) {
         // Add event listener
