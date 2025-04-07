@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Đăng kí Langki Subscription</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+                 Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #f4f7f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+#container {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    padding: 30px 40px;
+    width: 100%;
+    max-width: 450px;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+    overflow: hidden; /* Ensures content stays within rounded corners */
+}
+
+#container h2 {
+    color: #333;
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+#container p {
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    color: #555;
+    font-weight: 500;
+    font-size: 0.9em;
+}
+
+.form-group input[type="email"] {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    box-sizing: border-box; /* Include padding and border in element's total width */
+    font-size: 1em;
+    transition: border-color 0.2s ease;
+}
+
+.form-group input[type="email"]:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.2);
+}
+
+#paymentImage {
+    max-width: 200px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border: 1px solid #eee;
+    border-radius: 8px;
+}
+
+#container button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 6px;
+    font-size: 1em;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+    width: 100%; /* Make buttons full width */
+    margin-top: 10px;
+}
+
+#container button:hover {
+    background-color: #0056b3;
+}
+
+#container button:active {
+    transform: scale(0.98);
+}
+
+/* Simple validation error style */
+#emailError {
+    color: #dc3545;
+    font-size: 0.85em;
+    text-align: left;
+    margin-top: -10px; /* Adjust spacing */
+    margin-bottom: 10px;
+    display: none; /* Hidden by default */
+}
+
+/* Success icon style */
+.success-icon {
+    font-size: 3em;
+    color: #28a745;
+    margin-bottom: 15px;
+}
+    </style>
+</head>
+
+<body>
+    <div id="container"></div>
+    <script>
+    const container = document.getElementById('container');
+    let currentStep = 1;
+    let userData = {
+        email: ''
+    };
+
+    // --- Step Rendering Functions ---
+
+    function renderStep1() {
+        container.innerHTML = `
+        <h2>Enter Your Email</h2>
+        <p>Nhâp email của bạn</p>
+        <div class="form-group">
+            <label for="emailInput">Email Address:</label>
+            <input type="email" id="emailInput" placeholder="you@example.com" required>
+            <div id="emailError">Please enter a valid email address.</div>
+        </div>
+        <button id="step1NextBtn">Tiếp tục</button>
+    `;
+
+        // Add event listener for the button *after* it's added to the DOM
+        document.getElementById('step1NextBtn').addEventListener('click', handleStep1Submit);
+        document.getElementById('emailInput').addEventListener('input', () => {
+            // Hide error when user types
+            document.getElementById('emailError').style.display = 'none';
+        });
+    }
+
+    async function renderStep2() {
+        // Use a placeholder image URL (replace with your actual image)
+        const imageUrl = 'https://camo.githubusercontent.com/a4333ad7915303d2957bb07e0e3ff8bcfb0dd582d88f36d8de5e338cccff8a8c/68747470733a2f2f692e696d6775722e636f6d2f3166596f4b79532e706e67'; // Example placeholder
+
+        container.innerHTML = `
+        <h2>Payment Instructions</h2>
+        <p>Hướng dẫn thanh toán.</p>
+        <p>Với người dùng nước ngoài, vui lòng liên hệ trực tiếp qua <a href="https://www.facebook.com/profile.php?id=100093832307685" style="color: blue">Facebook</a> để được hỗ trợ.</p>
+        <p>Vui lòng thanh toán qua tài khoản ngân hàng bên dưới với mức phí 75.000 VND cho gói 1 tháng hoặc 600.000 VND cho gói 1 năm.</p>
+        <p><strong>Nội dung chuyển tiền: </strong> ${userData.email}</p>
+        <img src="${imageUrl}" alt="Payment QR Code or Instructions" id="paymentImage">
+        <button id="step2NextBtn">Đã chuyển tiền</button>
+    `;
+        userData = await getUser(userData.email)
+        console.log(userData)
+        document.getElementById('step2NextBtn').addEventListener('click', () => goToStep(3));
+    }
+    async function getUser(email) {
+        // Add event listener
+        try {
+            let rs = await fetch(`https://langki-payment.deno.dev/user`, {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify(email)
+            });
+            let user = await rs.json()
+            console.log(user)
+            return user
+        } catch (e) {
+            console.error(e)
+            alert(e)
+        }
+    }
+    async function renderStep3() {
+        container.innerHTML = `<h2>Vui lòng chờ trong giây lát</h2><p>Nếu hơn 5 phút nhưng hệ thống không ghi nhận giao dịch. Vui lòng liên hệ qua địa chỉ email <strong>mrntn281@gmail.com</strong> để được hướng dẫn.</p>`
+        const CHECK_INTERVAL = 5000; // 5 giây mỗi lần kiểm tra
+        const TIMEOUT = 5 * 60 * 1000; // 5 phút
+        let startTime = Date.now();
+
+        const intervalId = setInterval(async () => {
+            let user = await getUser(userData.email);
+            const elapsedTime = Date.now() - startTime;
+
+            if (userData.expire_date !== user.expire_date) {
+                console.log("Giao dịch thành công");
+                let apiKeyInfor = userData.keys[0].includes("...") ? userData.keys[0] + "(Lưu ý: key API được gia hạn không thay đổi với key cũ đã cấp cho người dùng)" : userData.keys[0]
+                container.innerHTML = `
+                    <h2>Gia hạn tài khoản thành công</h2>
+                    <div class="success-icon">✅</div>
+                    <p>Thông tin tài khoản</p>
+                    <p>Email: ${userData.email}</p>
+                    <p>API Key: ${apiKeyInfor}</p>
+                    <p>Ngày hết hạn: ${userData.expire_date} (YYYY-MM-DD)</p>
+                    <p>Thank you, <strong>${user.email}</strong>!</p>
+                `;
+                clearInterval(intervalId);
+            } else if (elapsedTime >= TIMEOUT) {
+                console.log('Đã quá 5 phút nhưng hệ thống không ghi nhận giao dịch.');
+                container.innerHTML = "Đã quá 5 phút nhưng hệ thống không ghi nhận giao dịch. Vui lòng liên hệ qua địa chỉ email <strong>mrntn281@gmail.com<strong> sau để được hướng dẫn."
+                clearInterval(intervalId);
+            } else {
+                console.log('Giá trị chưa thay đổi, tiếp tục kiểm tra...');
+            }
+        }, CHECK_INTERVAL);
+    }
+
+    // --- Step Logic and Navigation ---
+
+    function handleStep1Submit() {
+        const emailInput = document.getElementById('emailInput');
+        const emailError = document.getElementById('emailError');
+        const email = emailInput.value.trim();
+
+        // Basic email validation
+        if (email && /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+            userData.email = email;
+            emailError.style.display = 'none';
+            goToStep(2);
+        } else {
+            emailError.style.display = 'block'; // Show error message
+            emailInput.focus();
+        }
+    }
+
+    /**
+     * Goes to a specific step in the payment flow.
+     * @param {number} stepNumber - The step number to navigate to (1, 2, or 3).
+     */
+    function goToStep(stepNumber) {
+        currentStep = stepNumber;
+        console.log(`Navigating to step ${currentStep}`); // For debugging
+
+        switch (currentStep) {
+            case 1:
+                renderStep1();
+                break;
+            case 2:
+                renderStep2();
+                break;
+            case 3:
+                renderStep3();
+                break;
+            default:
+                console.error("Invalid step number:", stepNumber);
+                renderStep1(); // Default to step 1 if something goes wrong
+        }
+    }
+
+    /**
+     * Goes to the next logical step in the flow.
+     * Primarily useful if you want a single function to advance.
+     */
+    function nextStep() {
+        if (currentStep === 1) {
+            // Trigger the same logic as clicking the button in step 1
+            handleStep1Submit();
+        } else if (currentStep === 2) {
+            goToStep(3);
+        } else if (currentStep === 3) {
+            // Optionally loop back or do nothing
+            console.log("Already at the final step.");
+            // goToStep(1); // Uncomment to loop back
+        }
+    }
+
+
+    // --- Initialization ---
+
+    // Start the flow when the page loads
+    document.addEventListener('DOMContentLoaded', () => {
+        goToStep(1); // Initialize with the first step
+    });
+
+    // --- Expose functions for external triggering (e.g., from browser console) ---
+    // You can call these from the developer console:
+    // e.g., paymentFlow.goToStep(2) or paymentFlow.nextStep()
+    window.paymentFlow = {
+        goToStep,
+        nextStep,
+        getCurrentStep: () => currentStep,
+        getUserData: () => userData
+    };
+
+    </script>
+</body>
+
+</html>
