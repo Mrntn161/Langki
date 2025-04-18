@@ -181,12 +181,12 @@ body {
             </p>
             <div style="margin-top: 20px;">
                 <div style="display: flex; gap: 10px; margin-bottom: 10px;">
-                <button id="tab1Month" class="tab active">1 tháng - 75.000 VND</button>
-                <button id="tab1Year" class="tab">1 năm - 600.000 VND</button>
+                <button id="tab1Month" class="tab active">1 tháng - 80.000 VND</button>
+                <button id="tab1Year" class="tab">1 năm - 720.000 VND</button>
                 </div>
 
                 <div id="qrContainer">
-                <img src="${generateVietQR('VCB', '0123456789', 'Nguyen Van A', 75000, userData.email)}" alt="QR 1 tháng" id="paymentImage" style="max-width: 300px;">
+                <img src="${generateVietQR('VCB', '0123456789', 'Nguyen Van A', 80000, userData.email)}" alt="QR 1 tháng" id="paymentImage" style="max-width: 300px;">
                 </div>
             </div>
 
@@ -206,18 +206,18 @@ body {
             const hash9Digits = Math.abs(hash % 1000000000); // Lấy phần dư và chuyển thành 9 chữ số
             return "Langki " + hash9Digits.toString().padStart(9, '0'); // Đảm bảo luôn có đủ 9 chữ số
         }
-        const qrUrl = generateVietQR('MB', '9900128011997', 'Nguyễn Thiện Nghĩa', 75000, hash);
+        const qrUrl = generateVietQR('MB', '9900128011997', 'Nguyễn Thiện Nghĩa', 80000, hash);
         document.getElementById('paymentImage').src = qrUrl;
         // Thêm sự kiện cho nút "1 tháng"
         document.getElementById('tab1Month').addEventListener('click', () => {
-            const qrUrl = generateVietQR('MB', '9900128011997', 'Nguyễn Thiện Nghĩa', 75000, hash);
+            const qrUrl = generateVietQR('MB', '9900128011997', 'Nguyễn Thiện Nghĩa', 80000, hash);
             document.getElementById('paymentImage').src = qrUrl;
             setActiveTab('tab1Month');
         });
 
         // Thêm sự kiện cho nút "1 năm"
         document.getElementById('tab1Year').addEventListener('click', () => {
-            const qrUrl = generateVietQR('MB', '9900128011997', 'Nguyễn Thiện Nghĩa', 600000, hash);
+            const qrUrl = generateVietQR('MB', '9900128011997', 'Nguyễn Thiện Nghĩa', 720000, hash);
             document.getElementById('paymentImage').src = qrUrl;
             setActiveTab('tab1Year');
         });
@@ -262,7 +262,8 @@ body {
                 clearInterval(intervalId);
             } else if (elapsedTime >= TIMEOUT) {
                 console.log('Đã quá 5 phút nhưng hệ thống không ghi nhận giao dịch.');
-                container.innerHTML = "Đã quá 5 phút nhưng hệ thống không ghi nhận giao dịch. Vui lòng liên hệ qua địa chỉ email <strong>mrntn281@gmail.com<strong> sau để được hướng dẫn."
+                container.innerHTML = `Đã quá 5 phút nhưng hệ thống không ghi nhận giao dịch. vui lòng liên hệ trực tiếp qua 
+                < a href = "https://www.facebook.com/profile.php?id=100093832307685" style = "color: blue" > Facebook</a > để được hỗ trợ.`
                 clearInterval(intervalId);
             } else {
                 console.log('Giá trị chưa thay đổi, tiếp tục kiểm tra...');
@@ -288,7 +289,8 @@ body {
         }
     }
     async function renderStep3() {
-        container.innerHTML = `<h2>Vui lòng chờ trong giây lát</h2><p>Nếu hơn 5 phút nhưng hệ thống không ghi nhận giao dịch. Vui lòng liên hệ qua địa chỉ email <strong>mrntn281@gmail.com</strong> để được hướng dẫn.</p>`
+        container.innerHTML = `<h2>Vui lòng chờ trong giây lát</h2><p>Nếu hơn 5 phút nhưng hệ thống không ghi nhận giao dịch. Vui lòng liên hệ trực tiếp qua 
+                < a href = "https://www.facebook.com/profile.php?id=100093832307685" style = "color: blue" > Facebook</a > để được hỗ trợ.</p>`
         const CHECK_INTERVAL = 5000; // 5 giây mỗi lần kiểm tra
         const TIMEOUT = 5 * 60 * 1000; // 5 phút
         let startTime = Date.now();
