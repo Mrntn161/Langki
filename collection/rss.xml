@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>Langki Blog</title>
+        <link>https://mrntn161.github.io/Langki/collection</link>
+        <description>Langki Blog</description>
+        <lastBuildDate>Sat, 01 Jun 2024 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <item>
+            <title><![CDATA[Vocabulary - Multiple choice question (2)]]></title>
+            <link>https://mrntn161.github.io/Langki/collection/note_2</link>
+            <guid>https://mrntn161.github.io/Langki/collection/note_2</guid>
+            <pubDate>Sat, 01 Jun 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[2]]></description>
+            <content:encoded><![CDATA[<p>Chi tiết về loại thẻ Vocabulary Multiple Choice...</p>]]></content:encoded>
+            <category>anki</category>
+            <category>decks</category>
+        </item>
+        <item>
+            <title><![CDATA[Vocabulary - Multiple choice question (3)]]></title>
+            <link>https://mrntn161.github.io/Langki/collection/note_3</link>
+            <guid>https://mrntn161.github.io/Langki/collection/note_3</guid>
+            <pubDate>Sat, 01 Jun 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[2]]></description>
+            <content:encoded><![CDATA[<p>Chi tiết về loại thẻ Vocabulary Multiple Choice...</p>]]></content:encoded>
+            <category>anki</category>
+            <category>vocabulary</category>
+        </item>
+        <item>
+            <title><![CDATA[Vocabulary - Multiple choice question (3)]]></title>
+            <link>https://mrntn161.github.io/Langki/collection/note_4</link>
+            <guid>https://mrntn161.github.io/Langki/collection/note_4</guid>
+            <pubDate>Sat, 01 Jun 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[3]]></description>
+            <content:encoded><![CDATA[<p>Chi tiết về loại thẻ Vocabulary Multiple Choice...</p>]]></content:encoded>
+            <category>anki</category>
+            <category>vocabulary</category>
+        </item>
+        <item>
+            <title><![CDATA[Vocabulary - Multiple choice question]]></title>
+            <link>https://mrntn161.github.io/Langki/collection/vocab_multiple_choice</link>
+            <guid>https://mrntn161.github.io/Langki/collection/vocab_multiple_choice</guid>
+            <pubDate>Sat, 01 Jun 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Lankgi note type for learning vocabulary through multiple choice questions]]></description>
+            <content:encoded><![CDATA[<p>Chi tiết về loại thẻ Vocabulary Multiple Choice...</p>]]></content:encoded>
+            <category>anki</category>
+            <category>vocabulary</category>
+        </item>
+    </channel>
+</rss>

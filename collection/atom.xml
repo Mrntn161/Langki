@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://mrntn161.github.io/Langki/collection</id>
+    <title>Langki Blog</title>
+    <updated>2024-06-01T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://mrntn161.github.io/Langki/collection"/>
+    <subtitle>Langki Blog</subtitle>
+    <icon>https://mrntn161.github.io/Langki/img/like-award-favorite-star-svgrepo-com.svg</icon>
+    <entry>
+        <title type="html"><![CDATA[Vocabulary - Multiple choice question (2)]]></title>
+        <id>https://mrntn161.github.io/Langki/collection/note_2</id>
+        <link href="https://mrntn161.github.io/Langki/collection/note_2"/>
+        <updated>2024-06-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[2]]></summary>
+        <content type="html"><![CDATA[<p>Chi tiết về loại thẻ Vocabulary Multiple Choice...</p>]]></content>
+        <category label="anki" term="anki"/>
+        <category label="decks" term="decks"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Vocabulary - Multiple choice question (3)]]></title>
+        <id>https://mrntn161.github.io/Langki/collection/note_3</id>
+        <link href="https://mrntn161.github.io/Langki/collection/note_3"/>
+        <updated>2024-06-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[2]]></summary>
+        <content type="html"><![CDATA[<p>Chi tiết về loại thẻ Vocabulary Multiple Choice...</p>]]></content>
+        <category label="anki" term="anki"/>
+        <category label="vocabulary" term="vocabulary"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Vocabulary - Multiple choice question (3)]]></title>
+        <id>https://mrntn161.github.io/Langki/collection/note_4</id>
+        <link href="https://mrntn161.github.io/Langki/collection/note_4"/>
+        <updated>2024-06-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[3]]></summary>
+        <content type="html"><![CDATA[<p>Chi tiết về loại thẻ Vocabulary Multiple Choice...</p>]]></content>
+        <category label="anki" term="anki"/>
+        <category label="vocabulary" term="vocabulary"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Vocabulary - Multiple choice question]]></title>
+        <id>https://mrntn161.github.io/Langki/collection/vocab_multiple_choice</id>
+        <link href="https://mrntn161.github.io/Langki/collection/vocab_multiple_choice"/>
+        <updated>2024-06-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Lankgi note type for learning vocabulary through multiple choice questions]]></summary>
+        <content type="html"><![CDATA[<p>Chi tiết về loại thẻ Vocabulary Multiple Choice...</p>]]></content>
+        <category label="anki" term="anki"/>
+        <category label="vocabulary" term="vocabulary"/>
+    </entry>
+</feed>

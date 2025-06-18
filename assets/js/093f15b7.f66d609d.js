@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[794],{8286:a=>{a.exports=JSON.parse('{"tags":[{"label":"anki","permalink":"/Langki/collection/tags/anki","count":4},{"label":"decks","permalink":"/Langki/collection/tags/decks","count":1},{"label":"vocabulary","permalink":"/Langki/collection/tags/vocabulary","count":3}]}')}}]);
