@@ -1,0 +1,73 @@
+:root {
+  --ifm-color-primary: #4C9AFF;
+  /* Xanh biển pastel */
+  --ifm-color-primary-dark: #3F86E5;
+  --ifm-color-primary-darker: #3777CC;
+  --ifm-color-primary-darkest: #2C65B0;
+  --ifm-color-primary-light: #66AAFF;
+  --ifm-color-primary-lighter: #80BBFF;
+  --ifm-color-primary-lightest: #B3D6FF;
+
+  --ifm-background-color: #ffffff;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.05);
+}
+
+[data-theme='dark'] {
+  --ifm-color-primary: #66E0E3;
+  /* Xanh ngọc nhẹ nổi bật trên nền tối */
+  --ifm-color-primary-dark: #4DC8CC;
+  --ifm-color-primary-darker: #3AB0B5;
+  --ifm-color-primary-darkest: #2C9297;
+  --ifm-color-primary-light: #80EBED;
+  --ifm-color-primary-lighter: #A6F1F2;
+  --ifm-color-primary-lightest: #CCF7F8;
+
+  --ifm-background-color: #1e1e2f;
+  /* Tím than đậm, ấm hơn đen */
+  --docusaurus-highlighted-code-line-bg: rgba(255, 255, 255, 0.05);
+}
+
+
+.backToTopButtonShow_xfvO {
+  display: none !important;
+}
+
+/* src/css/custom.css */
+
+.filter-button {
+  margin: 0.25rem 0.5rem; /* Điều chỉnh margin */
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: white;
+  transition: all 0.2s ease-in-out;
+  font-size: 0.9rem; /* Điều chỉnh kích thước font nếu cần */
+}
+
+.filter-button:hover {
+  border-color: var(--ifm-color-primary-dark);
+  color: var(--ifm-color-primary-dark);
+}
+
+.filter-button--active {
+  border-color: var(--ifm-color-primary);
+  color: var(--ifm-color-primary);
+  font-weight: bold;
+  background-color: var(--ifm-color-primary-lightest); /* Hoặc màu nền khác */
+}
+
+/* Căn giữa pagination-nav */
+.pagination-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pagination-nav__item--current {
+  margin: 0 1rem; /* Khoảng cách cho text "Page X of Y" */
+  font-size: 0.9rem;
+  color: var(--ifm-font-color-secondary);
+}
+
