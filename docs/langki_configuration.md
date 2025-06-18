@@ -10,18 +10,8 @@ Langki templates can be used for various languages, but users need to set up the
 
 To set the language for TTS, first follow [the link](https://mrntn161.github.io/Langki/text-to-speech.html) to choose a voice you like, then copy the voice code into the template as shown below.
 
-<div style={{ display: 'flex', gap: '8px' }}>
-  <img
-    src="https://res.cloudinary.com/dqfb2pujj/image/upload/v1750094459/Langki/aokm0dtieosxgmxeogmg.png"
-    width="400"
-    height="500"
-  />
-  <img
-    src="https://res.cloudinary.com/dqfb2pujj/image/upload/v1750094505/Langki/axs5brlndrqxkuwxgjpg.png"
-    width="400"
-    height="500"
-  />
-</div>
+<img src="https://res.cloudinary.com/dqfb2pujj/image/upload/v1750094459/Langki/aokm0dtieosxgmxeogmg.png" />
+<img src="https://res.cloudinary.com/dqfb2pujj/image/upload/v1750094505/Langki/axs5brlndrqxkuwxgjpg.png" />
 
 Set `autoplay` to true if you want the AI to automatically read the message after responding.
 The `rate` setting allows you to adjust the reading speed.

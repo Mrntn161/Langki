@@ -238,7 +238,7 @@ function SubscriptionPage() {
           <div className="container">
             <div className="important-notice">
               <p>
-                Langki is free for everyone; you don't even need to sign up to use it. No feature is hidden behind a paywall. However, it takes money and time to maintain the server and fulfill each request. A few cents per user per day can add up to a hundred-dollar bill at the end of the month as the user base grows. Therefore, we set a daily usage quota to ensure fair access for all. Langki relies on the support of subscribers to stay up and running. If you're a heavy user or believe in the potential of the project, please consider subscribing. With just a cup of coffee a month, you help fund the project to keep it going. In return, you'll gain unlimited access, a more reliable server, and priority technical support.
+                Langki is free for everyone; you don't even need to sign up to use it. No feature is hidden behind a paywall. However, it takes money and time to maintain the server and fulfill each request. Even just a few cents per user each day can accumulate into hundreds of dollars by the end of the month as the user base grows. Therefore, we set a daily usage quota to ensure fair access for all. Langki relies on the support of subscribers to stay up and running. If you're a heavy user or believe in the potential of the project, please consider subscribing. With just a cup of coffee a month, you help fund the project to keep it going. In return, you'll gain unlimited access, a more reliable server, and priority technical support.
               </p>
 
 
