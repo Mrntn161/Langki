@@ -2,13 +2,15 @@
 title: "Prototype Template"
 date: 2025-06-01
 description: "This prototype template enables Anki users to integrate an AI chatbot into flashcards and extend the core functionality of Anki."
-tags: [Note types]
+tags: [Templates]
 image: "https://res.cloudinary.com/dqfb2pujj/image/upload/v1750342007/Langki/knwebgkai4vadlnvpbbw.png"
 ---
 
 # Langki prototype template
 
 This prototype template enables Anki users to integrate an AI chatbot into flashcards and extend the core functionality of Anki.
+
+<!--truncate-->
 
 By default, it's configured for English learners, but you can clone or customize it for other languages.
 
