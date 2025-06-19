@@ -17,7 +17,7 @@ const FeatureList = [
     Svg: require('@site/static/img/devices-svgrepo-com.svg').default,
     description: (
       <>
-        Unlike other add-ons, Langki is available on both Anki Desktop and AnkiWeb, offering cross-device access.
+        Unlike other add-ons, Langki is available on Anki Desktop, AnkiDroid, AnkiMobile and AnkiWeb, offering cross-device access.
       </>
     ),
   },
