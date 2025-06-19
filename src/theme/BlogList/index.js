@@ -3,6 +3,7 @@ import Link from '@docusaurus/Link';
 import styles from './styles.module.css'; // optional nếu bạn có CSS
 
 export default function BlogList({blogPosts}) {
+
   return (
     <div style={{display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(300px, 1fr))', gap: '1rem'}}>
       {blogPosts.map(({metadata}) => (

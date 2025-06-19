@@ -71,7 +71,6 @@ Similarly, this is where you design the back of a Langki flashcard.
 <div class="responsive-flex" style={{ display: 'flex', gap: '8px' }}>
 <img
     src="https://res.cloudinary.com/dqfb2pujj/image/upload/v1750066947/Langki/zmyvumwn0ywdf7yxskwz.png"
-    alt="Ảnh 3"
     width="100%"
     height="100%"
   />
