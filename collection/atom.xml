@@ -17,8 +17,8 @@
 <p>By default, it's configured for English learners, but you can clone or customize it for other languages.</p>
 <p>To use the template properly on Anki Desktop, you’ll need to install <a href="https://ankiweb.net/shared/info/1400986563" target="_blank" rel="noopener noreferrer">the Langki add-on</a>. Please note: the template is <strong>not compatible</strong> with <a href="https://play.google.com/store/apps/details?id=com.ichi2.anki&amp;hl=en" target="_blank" rel="noopener noreferrer">AnkiDroid</a> or <a href="https://apps.apple.com/us/app/ankimobile-flashcards/id373493387" target="_blank" rel="noopener noreferrer">AnkiMobile</a>, but it <strong>can be used on <a href="https://ankiweb.net/" target="_blank" rel="noopener noreferrer">AnkiWeb</a></strong>.</p>
 <p>For a step-by-step guide on how to use the template, check out <a href="https://langki.net/docs/langki_template" target="_blank" rel="noopener noreferrer">this blog post</a>.</p>
-<img src="https://res.cloudinary.com/dqfb2pujj/image/upload/v1750340333/Langki/ra4hahihsuzip0xh8oy7.png" width="70%" height="70%">
-<img src="https://res.cloudinary.com/dqfb2pujj/image/upload/v1750342662/Langki/w54mduzjbqovqzht2ewr.png" width="70%" height="70%">]]></content>
+<div class="responsive-flex" style="display:flex;gap:8px"><img src="https://res.cloudinary.com/dqfb2pujj/image/upload/v1750340333/Langki/ra4hahihsuzip0xh8oy7.png" width="400" height="500"><img src="https://res.cloudinary.com/dqfb2pujj/image/upload/v1750344177/Langki/wxdhzf9q8mg9gulbmp2b.png" width="400" height="500"></div>]]></content>
         <category label="Templates" term="Templates"/>
+        <category label="English" term="English"/>
     </entry>
 </feed>
