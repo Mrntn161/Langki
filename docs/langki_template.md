@@ -97,7 +97,7 @@ This text is always shown.
 {{/FieldName}}
 ```
 
-We use this syntax to ensure that the back of the Langki flashcard is not empty, even when the Back field itself is blank. This is because Langki automatically generates content to fill the flashcard if either the front or back section is left empty.
+We use this syntax to ensure that the back of the Langki flashcard is not empty, even when the Back field itself is blank. This prevents Langki from generating content automatically, as it tries to complete any flashcard where either the front or back is left empty.
 
 For example if the back section is designed like this:
 
