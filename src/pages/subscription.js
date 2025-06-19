@@ -277,7 +277,7 @@ function SubscriptionPage() {
                 <div>
                   <h2>Langki - One Year Unlimited Usage</h2>
                   <div className="price">$48.00 <span>/ year</span></div>
-                  <p className="savings-note">Save 33% ($4/month)!</p>
+                  <p className="savings-note">33% Off ($4/month)</p>
                   <ul className="features">
                     <li>Unlimited text-to-speech</li>
                     <li>Unlimited speech-to-text</li>

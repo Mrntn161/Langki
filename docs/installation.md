@@ -8,6 +8,6 @@ Langki is an AI-powered framework that combines the power of large language mode
 
 ## Requirements
 
-This tutorial assumes that you are already familiar with Anki — including how to install an add-on, import a pre-made deck, and design a template. (Knowledge of HTML, CSS, and JavaScript is not required.)
+This tutorial assumes that you are already familiar with Anki, knowing how to install an add-on, import a pre-made deck, and design a template.
 
-To get started, install the Langki add-on and download the Langki – Prototype note type.
+To get started, install [the Langki add-on](https://ankiweb.net/shared/info/1400986563) and download the Langki – Prototype note type.
