@@ -86,7 +86,7 @@ config.suggestions = [
 
 You can also configure the language for the translation function as follows:
 
-<div style={{ display: 'flex', gap: '8px' }}>
+<div class="responsive-flex" style={{ display: 'flex', gap: '8px' }}>
   <img
     src="https://res.cloudinary.com/dqfb2pujj/image/upload/v1750094719/Langki/lhfb3zrzywsh5d6f01ge.png"
     width="400"
@@ -107,7 +107,7 @@ Alternatively, for convenience, you can also ask the AI to respond entirely in a
 
 If you're using Anki in dark mode, you can also switch the chatbot to dark mode.
 
-<div style={{ display: 'flex', gap: '8px' }}>
+<div class="responsive-flex" style={{ display: 'flex', gap: '8px' }}>
   <img
     src="https://res.cloudinary.com/dqfb2pujj/image/upload/v1750094895/Langki/uhpwdbh7mgqzhy2xmk2j.png"
     width="400"

@@ -26,7 +26,7 @@ I will use Langki to create a note type for learning vocabulary through multiple
 
 First, I will clone the `Langki - prototype` to create a new note type called `Langki - Vocabulary (multiple choice)`
 
-<div style={{ display: 'flex', gap: '8px' }}>
+<div class="responsive-flex" style={{ display: 'flex', gap: '8px' }}>
   <img
     src="https://res.cloudinary.com/dqfb2pujj/image/upload/v1750145160/Langki/gmatfawrd38tg2yn01ch.png"
     width="400"
@@ -45,7 +45,7 @@ This is the prompt I use to guide the AI in generating the flashcard.
 
 The front and back fields are left empty to trigger flashcard generation
 
-<div style={{ display: 'flex', gap: '8px' }}>
+<div class="responsive-flex" style={{ display: 'flex', gap: '8px' }}>
   <img
     src="https://res.cloudinary.com/dqfb2pujj/image/upload/v1750319997/Langki/h4hjhhbgmn5hsjyy2edo.png"
     width="400"
@@ -60,7 +60,7 @@ The front and back fields are left empty to trigger flashcard generation
 
 And this is the flashcard AI generates
 
-<div style={{ display: 'flex', gap: '8px' }}>
+<div class="responsive-flex" style={{ display: 'flex', gap: '8px' }}>
   <img
     src="https://res.cloudinary.com/dqfb2pujj/image/upload/v1750147259/Langki/j7fvja4n2ctmjuezrdkx.png"
     width="400"
@@ -75,7 +75,7 @@ And this is the flashcard AI generates
 
 And these are the 'Front' and 'Back' fields after the generation
 
-<div style={{ display: 'flex', gap: '8px' }}>
+<div class="responsive-flex" style={{ display: 'flex', gap: '8px' }}>
   <img
     src="https://res.cloudinary.com/dqfb2pujj/image/upload/v1750147569/Langki/nii3w8iyzgslivep5yjr.png"
     width="400"
@@ -90,7 +90,7 @@ And these are the 'Front' and 'Back' fields after the generation
 
 Back:
 
-<div style={{ display: 'flex', gap: '8px' }}>
+<div class="responsive-flex" style={{ display: 'flex', gap: '8px' }}>
   <img
     src="https://res.cloudinary.com/dqfb2pujj/image/upload/v1750147634/Langki/ghglrhsgrh2hedm3macf.png"
     width="400"

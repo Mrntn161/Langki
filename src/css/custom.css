@@ -72,10 +72,9 @@
   color: var(--ifm-font-color-secondary);
 }
 
-/* Đảm bảo layout của BlogPostItem hiển thị tốt */
-/* (Bạn có thể không cần cái này nếu theme mặc định đã xử lý tốt) */
-/*
-.col.col--12 > article {
-  margin-bottom: var(--ifm-leading);
+@media (max-width: 768px) {
+  .responsive-flex {
+    flex-direction: column !important;
+    align-items: center;
+  }
 }
-*/

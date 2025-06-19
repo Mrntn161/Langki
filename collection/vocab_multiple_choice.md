@@ -1,10 +1,8 @@
 ---
-title: "Vocabulary - Multiple choice question"
+title: "Prototype Template"
 date: 2024-06-01
-description: "Lankgi note type for learning vocabulary through multiple choice questions"
-tags: [anki, vocabulary]
+description: "Langki prototype template"
+tags: [note types]
 ---
 
-# Vocabulary Multiple Choice
-
-Chi tiết về loại thẻ Vocabulary Multiple Choice...
+# Langki prototype template

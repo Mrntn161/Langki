@@ -12,16 +12,14 @@ Now, let's take a look at a Langki flashcard and compare it to a traditional Ank
 
 **The fields**
 
-<div style={{ display: 'flex', gap: '8px' }}>
+<div class="responsive-flex" style={{ display: 'flex', gap: '8px' }}>
   <img
     src="https://res.cloudinary.com/dqfb2pujj/image/upload/v1750061155/Langki/kvpqyzlgj7j2xiysptpd.png"
-    alt="Ảnh 1"
     width="400"
     height="500"
   />
   <img
     src="https://res.cloudinary.com/dqfb2pujj/image/upload/v1750061197/Langki/pcv9gjne6mjce47sbyaf.png"
-    alt="Ảnh 2"
     width="400"
     height="500"
   />
@@ -29,16 +27,14 @@ Now, let's take a look at a Langki flashcard and compare it to a traditional Ank
 
 **The question**
 
-<div style={{ display: 'flex', gap: '8px' }}>
+<div class="responsive-flex" style={{ display: 'flex', gap: '8px' }}>
   <img
     src="https://res.cloudinary.com/dqfb2pujj/image/upload/v1750059882/Langki/ahknajc1lynkfuzid13w.png"
-    alt="Ảnh 1"
     width="400"
     height="500"
   />
   <img
     src="https://res.cloudinary.com/dqfb2pujj/image/upload/v1750059931/Langki/eyqvzhvpfe7jqszjvjws.png"
-    alt="Ảnh 2"
     width="400"
     height="500"
   />
@@ -46,16 +42,14 @@ Now, let's take a look at a Langki flashcard and compare it to a traditional Ank
 
 **The answer**
 
-<div style={{ display: 'flex', gap: '8px' }}>
+<div class="responsive-flex" style={{ display: 'flex', gap: '8px' }}>
   <img
     src="https://res.cloudinary.com/dqfb2pujj/image/upload/v1750060008/Langki/jmpjbjcxmrztm4behygk.png"
-    alt="Ảnh 1"
     width="400"
     height="500"
   />
   <img
     src="https://res.cloudinary.com/dqfb2pujj/image/upload/v1750060109/Langki/no8eij2napwvelddqsqz.png"
-    alt="Ảnh 2"
     width="400"
     height="500"
   />

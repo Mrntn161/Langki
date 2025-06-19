@@ -22,7 +22,7 @@ Since Iâ€™ll be using AI to evaluate the answer, the back of the flashcard isnâ€
 
 ![](https://res.cloudinary.com/dqfb2pujj/image/upload/v1750225825/Langki/s8trijcfnly3s54g9fz2.png)
 
-<div style={{ display: 'flex', gap: '8px' }}>
+<div class="responsive-flex" style={{ display: 'flex', gap: '8px' }}>
   <img
     src="https://res.cloudinary.com/dqfb2pujj/image/upload/v1750097251/Langki/tk4mwshrkiaxmjz1otr7.png"
     width="400"
