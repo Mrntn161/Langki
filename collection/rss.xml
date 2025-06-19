@@ -4,49 +4,23 @@
         <title>Langki Blog</title>
         <link>https://langki.net/collection</link>
         <description>Langki Blog</description>
-        <lastBuildDate>Sat, 01 Jun 2024 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 01 Jun 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <item>
-            <title><![CDATA[Vocabulary - Multiple choice question (2)]]></title>
-            <link>https://langki.net/collection/note_2</link>
-            <guid>https://langki.net/collection/note_2</guid>
-            <pubDate>Sat, 01 Jun 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[2]]></description>
-            <content:encoded><![CDATA[<p>Chi tiết về loại thẻ Vocabulary Multiple Choice...</p>]]></content:encoded>
-            <category>anki</category>
-            <category>decks</category>
-        </item>
-        <item>
-            <title><![CDATA[Vocabulary - Multiple choice question (3)]]></title>
-            <link>https://langki.net/collection/note_3</link>
-            <guid>https://langki.net/collection/note_3</guid>
-            <pubDate>Sat, 01 Jun 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[2]]></description>
-            <content:encoded><![CDATA[<p>Chi tiết về loại thẻ Vocabulary Multiple Choice...</p>]]></content:encoded>
-            <category>anki</category>
-            <category>vocabulary</category>
-        </item>
-        <item>
-            <title><![CDATA[Vocabulary - Multiple choice question (3)]]></title>
-            <link>https://langki.net/collection/note_4</link>
-            <guid>https://langki.net/collection/note_4</guid>
-            <pubDate>Sat, 01 Jun 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[3]]></description>
-            <content:encoded><![CDATA[<p>Chi tiết về loại thẻ Vocabulary Multiple Choice...</p>]]></content:encoded>
-            <category>anki</category>
-            <category>vocabulary</category>
-        </item>
-        <item>
-            <title><![CDATA[Vocabulary - Multiple choice question]]></title>
-            <link>https://langki.net/collection/vocab_multiple_choice</link>
-            <guid>https://langki.net/collection/vocab_multiple_choice</guid>
-            <pubDate>Sat, 01 Jun 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[Lankgi note type for learning vocabulary through multiple choice questions]]></description>
-            <content:encoded><![CDATA[<p>Chi tiết về loại thẻ Vocabulary Multiple Choice...</p>]]></content:encoded>
-            <category>anki</category>
-            <category>vocabulary</category>
+            <title><![CDATA[Prototype Template]]></title>
+            <link>https://langki.net/collection/prototype</link>
+            <guid>https://langki.net/collection/prototype</guid>
+            <pubDate>Sun, 01 Jun 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[This prototype template enables Anki users to integrate an AI chatbot into flashcards and extend the core functionality of Anki.]]></description>
+            <content:encoded><![CDATA[<p>This prototype template enables Anki users to integrate an AI chatbot into flashcards and extend the core functionality of Anki.</p>
+<p>By default, it's configured for English learners, but you can clone or customize it for other languages.</p>
+<p>To use the template properly on Anki Desktop, you’ll need to install <a href="https://ankiweb.net/shared/info/1400986563" target="_blank" rel="noopener noreferrer">the Langki add-on</a>. Please note: the template is <strong>not compatible</strong> with <a href="https://play.google.com/store/apps/details?id=com.ichi2.anki&amp;hl=en" target="_blank" rel="noopener noreferrer">AnkiDroid</a> or <a href="https://apps.apple.com/us/app/ankimobile-flashcards/id373493387" target="_blank" rel="noopener noreferrer">AnkiMobile</a>, but it <strong>can be used on <a href="https://ankiweb.net/" target="_blank" rel="noopener noreferrer">AnkiWeb</a></strong>.</p>
+<p>For a step-by-step guide on how to use the template, check out <a href="https://langki.net/docs/langki_template" target="_blank" rel="noopener noreferrer">this blog post</a>.</p>
+<img src="https://res.cloudinary.com/dqfb2pujj/image/upload/v1750340333/Langki/ra4hahihsuzip0xh8oy7.png" width="70%" height="70%">
+<img src="https://res.cloudinary.com/dqfb2pujj/image/upload/v1750342662/Langki/w54mduzjbqovqzht2ewr.png" width="70%" height="70%">]]></content:encoded>
+            <category>Note types</category>
         </item>
     </channel>
 </rss>
