@@ -4,11 +4,11 @@ sidebar_position: 6
 
 # Create Custom Langki Note Types for open questions
 
-Langki is simply an Anki template, so you can also clone it to create custom versions tailored to different types of exercises.
+Langki is simply an Anki template, so you can also clone it to create custom templates tailored to different types of exercises.
 
 If you don’t know how to create a new note type, watch [this video first](https://www.youtube.com/watch?v=vIGF_EoGfHk).
 
-For example, I’ll create a custom template for speaking practice.
+In this tutorial, I’ll create a custom template for speaking practice.
 
 First, I will clone the `Langki - Prototype` and name the new note type `Langki - Speaking`.
 

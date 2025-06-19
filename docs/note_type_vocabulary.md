@@ -6,7 +6,7 @@ sidebar_position: 7
 
 ## The idea
 
-One of Anki's greatest strengths is its ability to let users design flashcards using HTML, CSS, and JavaScript. This means we can replicate almost any type of exercise found in other language learning apps. However, one bottleneck that Anki faces is data. Creating content on Anki can be very time-consuming, as users have to manually enter information into individual fields, which are later rendered into flashcards using HTML. What if we could eliminate this intermediate step by using AI to generate the HTML directly?
+One of Anki's greatest strengths is its ability to let users design flashcards using HTML, CSS, and JavaScript. This means we can replicate almost any type of exercise found in other language learning apps. However, one bottleneck that Anki faces is data. Creating content on Anki can be tedious, as users have to manually enter information into individual fields, which are later rendered into flashcards using HTML. What if we could eliminate this intermediate step by using AI to generate the HTML directly?
 
 For example, instead of designing a flashcard template like this:
 
@@ -42,6 +42,21 @@ First, I will clone the `Langki - prototype` to create a new note type called `L
 This is the prompt I use to guide the AI in generating the flashcard.
 
 ![](https://res.cloudinary.com/dqfb2pujj/image/upload/v1750147171/Langki/vsg4c8izce8h0wes9paf.png)
+
+The front and back fields are left empty to trigger flashcard generation
+
+<div style={{ display: 'flex', gap: '8px' }}>
+  <img
+    src="https://res.cloudinary.com/dqfb2pujj/image/upload/v1750319997/Langki/h4hjhhbgmn5hsjyy2edo.png"
+    width="400"
+    height="500"
+  />
+  <img
+    src="https://res.cloudinary.com/dqfb2pujj/image/upload/v1750319973/Langki/plha8siftl00kmxov8hm.png"
+    width="400"
+    height="500"
+  />
+</div>
 
 And this is the flashcard AI generates
 

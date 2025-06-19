@@ -12,7 +12,7 @@ From day one, I had a clear goal in mind: to create a language tool for self-lea
 
 Langki doesn’t aim to replace non-AI learning methods or your existing workflow. It doesn’t promise that AI will give you a shortcut to fluency. It simply speeds up the feedback loop and the process of looking up information. The framework adapts to your current learning process and provides additional features I wish Anki had. Whether you’re learning through tutoring, textbooks, or traditional classrooms, Langki empowers you to actively engage with the material, rather than rely on rote memorization.
 
-Over the past year, I’ve seen early users apply Langki in all sorts of ways. Some use it simply to build vocabulary decks, while others use it for translation practice, listening exercises, and more. Not everyone uses my pre-built templates or follows my workflow, and that’s perfectly fine. I’m still learning myself and constantly figuring out how to improve in my own target language.
+Over the past six months, I’ve seen early users apply Langki in all sorts of ways. Some use it simply to build vocabulary decks, while others use it for translation practice, listening exercises, and more. Not everyone uses my pre-built templates or follows my workflow, and that’s perfectly fine. I’m still learning myself and constantly figuring out how to improve in my own target language.
 
 If you have a cool idea for a new template or feedback to share, don’t hesitate to reach out. I’m building a collection of templates and decks powered by Langki. After all, starting from scratch can be overwhelming and disorienting. Community contributions make it easier for everyone.
 
