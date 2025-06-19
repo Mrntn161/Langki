@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[152],{1928:e=>{e.exports=JSON.parse('{"tags":[{"label":"Note types","permalink":"/collection/tags/note-types","count":1}]}')}}]);
