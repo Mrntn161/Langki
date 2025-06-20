@@ -4,11 +4,11 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Anki-Native',
+    title: 'Seamless Integration',
     Svg: require('@site/static/img/star-mark-svgrepo-com.svg').default,
     description: (
       <>
-        Langki runs directly within Anki, so you won’t miss out on your beloved Anki features.
+        Langki is just an Anki template, meaning you can seamlessly integrate it into your existing workflow, note types, and decks.
       </>
     ),
   },
@@ -17,7 +17,7 @@ const FeatureList = [
     Svg: require('@site/static/img/devices-svgrepo-com.svg').default,
     description: (
       <>
-        Unlike other add-ons, Langki is available on Anki Desktop, AnkiDroid, AnkiMobile and AnkiWeb, offering cross-device access.
+        Written in JavaScript, Langki is available on Anki Desktop, AnkiDroid, AnkiMobile, and AnkiWeb, offering cross-device access.
       </>
     ),
   },

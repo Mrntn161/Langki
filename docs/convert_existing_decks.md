@@ -1,5 +1,5 @@
 ---
-sidebar_position: 7
+sidebar_position: 8
 ---
 
 # Convert existing decks to Langki
@@ -42,7 +42,7 @@ Now, let’s compare it to the original version.
     height="500"
   />
   <img
-    src="https://res.cloudinary.com/dqfb2pujj/image/upload/v1750437346/Langki/wyr8qvi7homc6ifygepb.png"
+    src="https://res.cloudinary.com/dqfb2pujj/image/upload/v1750439271/Langki/ljnjacdfzjm72c7fycjm.png"
     width="400"
     height="500"
   />
@@ -55,13 +55,13 @@ Now, let’s compare it to the original version.
     height="500"
   />
   <img
-    src="https://res.cloudinary.com/dqfb2pujj/image/upload/v1750437369/Langki/kc9qvmvcicqcknxqjmiz.png"
+    src="https://res.cloudinary.com/dqfb2pujj/image/upload/v1750439249/Langki/w3aevz39ycjv2n2dv5tc.png"
     width="400"
     height="500"
   />
 </div>
 
-### Fixing the autoplay audio problem in the back
+## Fixing the autoplay audio problem
 
 In Langki, both the front and back of the flashcard are set up within the Front Template. However, this can cause an issue when autoplay audio is enabled and there's audio intended for the back section. In this case, the audio meant to play on the back will instead play on the front. So, we need to remove all audio from the back section in the Front Template.
 
@@ -72,13 +72,19 @@ However, if we do that, the back of the flashcard will no longer include audio.
 
 ![](https://res.cloudinary.com/dqfb2pujj/image/upload/v1750418273/Langki/o9xhhafvwymmwqcyrmpg.png)
 
-So, we need a workaround to add audio to the back section when the flashcard is flipped.
+So, we need a workaround to add audio to the back section when the flashcard turns to the Back template.
 We can do this by creating an HTML element that contains the audio in the Back Template, and then using custom JavaScript to insert the audio element into the back section only if that element exists.
 
-```html
-<div class="back-side">{{FrontSide}}</div>
+```
+<div class="back-side">
+    {{FrontSide}}
+</div>
 
-<div id="audio">{{Sound_Meaning}} [sound:_1sec.mp3] {{Sound_Example}}</div>
+<div id="audio">
+    {{Sound_Meaning}}
+    [sound:_1sec.mp3]
+    {{Sound_Example}}
+</div>
 ```
 
 ```js
