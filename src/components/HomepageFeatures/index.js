@@ -13,7 +13,7 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Multi-Device Support',
+    title: 'Cross-Device Accessibility',
     Svg: require('@site/static/img/devices-svgrepo-com.svg').default,
     description: (
       <>

@@ -59,4 +59,6 @@ Similarly, this is a flashcard for speaking practice. The difference is that thi
 
 To use the speech-to-text feature, simply click the microphone icon next to the input field. For unscripted speech, speech-to-text is much faster than speech analysis.
 
-By default, text-to-speech and speech analysis are set up to support English, but you can configure them for other languages.
+:::note
+Due to security concerns, the WebView on AnkiDroid and AnkiMobile do not support recording, so speech-to-text and speech analysis features are unavailable on these platforms. If you want to use these features on a smartphone, we recommend using AnkiWeb instead.
+:::
