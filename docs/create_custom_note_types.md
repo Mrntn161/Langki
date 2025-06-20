@@ -2,7 +2,7 @@
 sidebar_position: 6
 ---
 
-# Create Custom Langki Note Types for open questions
+# Create Custom Langki Note Types
 
 Langki is simply an Anki template, so you can also clone it to create custom templates tailored to different types of exercises.
 

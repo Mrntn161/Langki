@@ -1,8 +1,8 @@
 ---
-sidebar_position: 7
+sidebar_position: 8
 ---
 
-# Create Custom Langki Note Types for vocabulary flashcards
+# Flashcard generation
 
 ## The idea
 
