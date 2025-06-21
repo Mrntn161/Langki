@@ -32,7 +32,7 @@ const PaypalButtonWrapper = ({ planId, currency, onPaymentSuccess, onPaymentErro
     return <div className="paypal-error">Error loading PayPal script. Please try refreshing.</div>;
   }
   if (isResolved && !window.paypal) { // Đôi khi isResolved nhưng paypal object chưa sẵn sàng ngay
-     return <div className="paypal-loading">Initializing PayPal...</div>;
+    return <div className="paypal-loading">Initializing PayPal...</div>;
   }
 
   return (
@@ -76,9 +76,9 @@ function SubscriptionPage() {
   const [expireDate, setExpireDate] = useState('');
   const apiKeyInputRef = useRef(null);
 
-  const YOUR_PAYPAL_CLIENT_ID = "AZ5k7_R-514fcE51ujxXcZrx0rChadyV_-jhodQVUd_mOK_7T1iMHHrXh9Kf23gNwVLt-BputJ5WfpS8";
-  const MONTHLY_PLAN_ID = 'P-8A509116M2090811GNBB3SBI';
-  const YEARLY_PLAN_ID = 'P-9SN68665ED631023HNBB3SNY';
+  const YOUR_PAYPAL_CLIENT_ID = "ASByEaLQpwtuhJSUj-aff0rt1wB5aT6-oIHREePO430o678gYU4Pk4_y_RSpaFYAqejRtmYE8ovHr9u_";
+  const MONTHLY_PLAN_ID = 'P-2GK46629CT581105BNBLDPZI';
+  const YEARLY_PLAN_ID = 'P-0KM8981601503625VNBLDQQQ';
   const PAYMENT_HANDLER_ENDPOINT = "https://payment-10213.deno.dev";
 
   const paypalOptions = {
@@ -165,11 +165,14 @@ function SubscriptionPage() {
                 readOnly
               />
               <button onClick={handleCopyApiKey} className="copy-button">
-                Copy
+                Copy 
+
+                
               </button>
             </div>
             <p>
-              Your subscription is active. The next billing time is <strong>{new Date(expireDate).toLocaleDateString()}</strong>.
+              To learn more about using the API key, please read <a href="https://langki.net/docs/langki_configuration#api-key-for-subscribers" target="_blank">this article</a>.
+              The key is valid until <strong>{new Date(expireDate).toLocaleDateString()}</strong>.
             </p>
           </div>
         </main>
@@ -276,8 +279,8 @@ function SubscriptionPage() {
               <div className="plan-card">
                 <div>
                   <h2>Langki - One Year Unlimited Usage</h2>
-                  <div className="price">$48.00 <span>/ year</span></div>
-                  <p className="savings-note">33% Off ($4/month)</p>
+                  <div className="price">$4.00 <span>/ Month</span></div>
+                  <p className="savings-note">Billed annually at $48.00</p>
                   <ul className="features">
                     <li>Unlimited text-to-speech</li>
                     <li>Unlimited speech-to-text</li>
