@@ -121,7 +121,7 @@ function SubscriptionPage() {
     // Có thể bạn muốn hiển thị thông báo lỗi cụ thể hơn dựa trên `error`
     console.error("Payment Error:", error);
     setPaymentState('error');
-    alert("An error occurred with the payment. Please try again or contact support.");
+    alert("An error occurred with the payment. Please Contact support.");
   }
 
   const handleCopyApiKey = () => {
@@ -221,7 +221,7 @@ function SubscriptionPage() {
         <main className="subscription-page-wrapper">
           <div className="container" style={{textAlign: 'center', backgroundColor: '#fff', padding: '30px', borderRadius: '8px', boxShadow: '0 0 10px rgba(0,0,0,0.1)'}}>
             <h1>Subscription Error</h1>
-            <p>We encountered an error processing your subscription. Please try again later or contact support if the issue persists.</p>
+            <p>We encountered an error processing your subscription. Please <a href="https://langki.net/contact">contact us</a> for further support. We're really sorry for the inconvenience.</p>
             <button onClick={() => setPaymentState('initial')} style={{padding: '10px 20px', backgroundColor: '#5a67d8', color: 'var(--ifm-font-color-secondary)', border: 'none', borderRadius: '5px', cursor: 'pointer'}}>
               Try Again
             </button>
