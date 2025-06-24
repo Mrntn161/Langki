@@ -54,4 +54,6 @@ Tương tự, đây là một thẻ flashcard dùng cho luyện nói. Sự khác
   <img
     src="https://res.cloudinary.com/dqfb2pujj/image/upload/v1750084585/Langki/pgzuhh5gp25l2qt0qvfp.png"
     width="400"
-    hei
+    height="500"
+  />
+</div>
