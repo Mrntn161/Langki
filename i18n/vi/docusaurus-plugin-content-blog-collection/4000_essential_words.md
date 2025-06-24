@@ -1,7 +1,7 @@
 ---
 title: "4000 Essential English Words"
 date: 2025-06-01
-description: "Bộ thẻ này là phiên bản nâng cấp của bộ thẻ 4000 Từ Vựng Tiếng Anh Cần Thiết (tất cả các cuốn sách), nay đã được tích hợp với các tính năng AI của Langki."
+description: "Bộ thẻ này là phiên bản nâng cấp của bộ thẻ 4000 Từ Vựng Tiếng Anh, nay đã được tích hợp với các tính năng AI của Langki."
 tags: [Bộ Thẻ, Tiếng Anh]
 image: "https://res.cloudinary.com/dqfb2pujj/image/upload/v1750492401/Langki/f1krbhqmp2phrbdmswel.png"
 ---
