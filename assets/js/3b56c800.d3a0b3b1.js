@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[152],{1928:e=>{e.exports=JSON.parse('{"tags":[{"label":"Decks","permalink":"/collection/tags/decks","count":1},{"label":"English","permalink":"/collection/tags/english","count":3},{"label":"Templates","permalink":"/collection/tags/templates","count":2}]}')}}]);
