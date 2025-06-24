@@ -12,10 +12,10 @@
         <id>https://langki.net/vi/collection/4000_essential_words</id>
         <link href="https://langki.net/vi/collection/4000_essential_words"/>
         <updated>2025-06-01T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Bộ thẻ này là phiên bản nâng cấp của bộ thẻ 4000 Từ Vựng Tiếng Anh Cần Thiết (tất cả các cuốn sách), nay đã được tích hợp với các tính năng AI của Langki.]]></summary>
-        <content type="html"><![CDATA[<p>Bộ thẻ này là phiên bản nâng cấp của <a href="https://ankiweb.net/shared/info/1104981491" target="_blank" rel="noopener noreferrer">4000 Essential English Words</a>, hiện đã được tích hợp với các tính năng AI của Langki.</p>
-<p>Để tùy chỉnh bộ thẻ, hãy mở mẫu thẻ bằng cách nhấp vào "Cards" trong trình chỉnh sửa bộ thẻ và chỉnh sửa mẫu theo sở thích của bạn. Đọc <a href="https://langki.net/docs/langki_configuration" target="_blank" rel="noopener noreferrer">hướng dẫn này</a> để biết thêm chi tiết.</p>
-<p>Bộ thẻ này tương thích với Anki Desktop, AnkiDroid, AnkiMobile và AnkiWeb. Tuy nhiên, để sử dụng đúng mẫu thẻ trên Anki Desktop, bạn cần cài đặt <a href="https://ankiweb.net/shared/info/1400986563" target="_blank" rel="noopener noreferrer">tiện ích bổ sung Langki</a>.</p>
+        <summary type="html"><![CDATA[Bộ thẻ này là phiên bản nâng cấp của bộ thẻ 4000 Từ Vựng Tiếng Anh, hiện đã được tích hợp các tính năng AI của Langki.]]></summary>
+        <content type="html"><![CDATA[<p>Bộ thẻ này là phiên bản nâng cấp của <a href="https://ankiweb.net/shared/info/1104981491" target="_blank" rel="noopener noreferrer">4000 Essential English Words</a>, hiện đã được tích hợp các tính năng AI của Langki.</p>
+<p>Để tùy chỉnh bộ thẻ, vào template của mẫu thẻ bằng cách nhấp vào "Cards" trong Editor và chỉnh sửa sao cho phù hợp. Đọc <a href="https://langki.net/vi/docs/langki_configuration" target="_blank" rel="noopener noreferrer">hướng dẫn này</a> để biết thêm chi tiết cách chỉnh sửa.</p>
+<p>Bộ thẻ này tương thích với Anki Desktop, AnkiDroid, AnkiMobile và AnkiWeb. Tuy nhiên, để sử dụng trên Anki Desktop, bạn cần cài đặt <a href="https://ankiweb.net/shared/info/1400986563" target="_blank" rel="noopener noreferrer">Langki Addon</a>.</p>
 <p><img decoding="async" loading="lazy" src="https://res.cloudinary.com/dqfb2pujj/image/upload/v1750492139/Langki/wpl2vsguarqindjfryqj.png" alt="" class="img_ev3q"></p>
 <p><img decoding="async" loading="lazy" src="https://res.cloudinary.com/dqfb2pujj/image/upload/v1750492280/Langki/hnsxrssybvwuga7i0pdh.png" alt="" class="img_ev3q">
 <img decoding="async" loading="lazy" src="https://res.cloudinary.com/dqfb2pujj/image/upload/v1750492296/Langki/d58jgiduy4ihdxshiivc.png" alt="" class="img_ev3q"></p>]]></content>
@@ -23,19 +23,19 @@
         <category label="Tiếng Anh" term="Tiếng Anh"/>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Câu hỏi trắc nghiệm để luyện từ vựng]]></title>
+        <title type="html"><![CDATA[Mẫu thẻ trắc nghiệm từ vựng]]></title>
         <id>https://langki.net/vi/collection/multiple_choice_questions</id>
         <link href="https://langki.net/vi/collection/multiple_choice_questions"/>
         <updated>2025-06-01T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Mẫu này giúp tạo câu hỏi trắc nghiệm để luyện từ vựng.]]></summary>
-        <content type="html"><![CDATA[<p>Mẫu này giúp tạo câu hỏi trắc nghiệm để luyện từ vựng. Tất cả các phương án đều được AI tạo ra và được xáo trộn ngẫu nhiên trong mỗi lần ôn tập.</p>
+        <summary type="html"><![CDATA[Mẫu thẻ này giúp tạo câu hỏi trắc nghiệm để luyện từ vựng. Tất cả các phương án đều được AI tạo ra và được xáo trộn ngẫu nhiên trong mỗi lần ôn tập.]]></summary>
+        <content type="html"><![CDATA[<p>Mẫu thẻ này giúp tạo câu hỏi trắc nghiệm để luyện từ vựng. Tất cả các phương án đều được AI tạo ra và được xáo trộn ngẫu nhiên trong mỗi lần ôn tập.</p>
 <p><img decoding="async" loading="lazy" src="https://res.cloudinary.com/dqfb2pujj/image/upload/v1750526067/Langki/kanrtvkll8jcnuxfcyml.gif" alt="" class="img_ev3q"></p>
-<p>Mẫu thẻ này tương thích với Anki Desktop, AnkiDroid, AnkiMobile và AnkiWeb. Tuy nhiên, để sử dụng đúng cách trên Anki Desktop, bạn cần cài đặt <a href="https://ankiweb.net/shared/info/1400986563" target="_blank" rel="noopener noreferrer">tiện ích bổ sung Langki</a>.</p>
-<p>Để tùy chỉnh bộ thẻ, hãy mở mẫu thẻ bằng cách nhấn vào "Cards" trong trình chỉnh sửa bộ thẻ và chỉnh sửa mẫu theo ý muốn. Đọc <a href="https://langki.net/docs/langki_configuration" target="_blank" rel="noopener noreferrer">hướng dẫn này</a> để biết thêm chi tiết.</p>
+<p>Mẫu thẻ này tương thích với Anki Desktop, AnkiDroid, AnkiMobile và AnkiWeb. Tuy nhiên, để sử dụng trên Anki Desktop, bạn cần cài đặt <a href="https://ankiweb.net/shared/info/1400986563" target="_blank" rel="noopener noreferrer">Langki Addon</a>.</p>
+<p>Để tùy chỉnh, vào template của mẫu thẻ bằng cách nhấp vào "Cards" trong Editor và chỉnh sửa sao cho phù hợp. Đọc <a href="https://langki.net/vi/docs/langki_configuration" target="_blank" rel="noopener noreferrer">hướng dẫn này</a> để biết thêm chi tiết cách chỉnh sửa.</p>
 <p><img decoding="async" loading="lazy" src="https://res.cloudinary.com/dqfb2pujj/image/upload/v1750492139/Langki/wpl2vsguarqindjfryqj.png" alt="" class="img_ev3q"></p>
-<p>Hãy chỉnh sửa mẫu nếu bạn muốn thay đổi phần định nghĩa trong thẻ ghi nhớ.</p>
+<p>Để có định nghĩa tiếng Việt bạn cần chỉnh sửa "English" sang "Vietnamese" trong template như sau</p>
 <p><img decoding="async" loading="lazy" src="https://res.cloudinary.com/dqfb2pujj/image/upload/v1750527561/Langki/uvbxmvzcgprz3c2wbdqs.png" alt="" class="img_ev3q"></p>
-<p><strong>Lưu ý quan trọng</strong>: AI chỉ được kích hoạt để tạo thẻ khi cả hai trường Mặt Trước và Mặt Sau đều để trống.</p>]]></content>
+<p><strong>Lưu ý quan trọng</strong>: AI chỉ được kích hoạt để tạo thẻ khi ít nhất một trong hai trường tin Front hoặc Back bị bỏ trống.</p>]]></content>
         <category label="Mẫu Thẻ" term="Mẫu Thẻ"/>
         <category label="Tiếng Anh" term="Tiếng Anh"/>
     </entry>
