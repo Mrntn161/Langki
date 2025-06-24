@@ -93,9 +93,9 @@ Nội dung này chỉ hiển thị nếu trường FieldName rỗng
 
 ```
 
-Chúng ta sử dụng cú pháp này để đảm bảo rằng mặt sau của thẻ Langki (phần màu đỏ) không bị rỗng, ngay cả khi trường Back không có nội dung. Điều này ngăn Langki tự động tạo nội dung vì nó sẽ luôn cố gắng hoàn thiện thẻ flashcard khi phần mặt trước (phần xanh lá cây) hoặc mặt sau (phần màu đỏ) bị bỏ trống.
+Chúng ta sử dụng cú pháp này để đảm bảo rằng mặt sau của thẻ Langki (phần màu đỏ) không bị bỏ trống, ngay cả khi trường Back không có nội dung. Điều này ngăn Langki tự động tạo nội dung vì nó sẽ luôn cố gắng hoàn thiện thẻ flashcard khi phần mặt trước (phần xanh lá cây) hoặc mặt sau (phần màu đỏ) bị bỏ trống.
 
-Ví dụ nếu mặt sau (phần màu đỏ) được thiết kế như như sau:
+Ví dụ nếu mặt sau được thiết kế như như sau:
 
 <div class="responsive-flex" style={{ display: 'flex', gap: '8px' }}>
   <img
