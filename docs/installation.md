@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # What is Langki?
 
-Langki is an AI-powered framework that combines the power of large language models (LLMs) with spaced repetition systems (SRS). The framework aims to extend the basic features of Anki flashcards to offer an all-in-one toolkit for language learners. The name 'Langki' is a blend of 'language' and 'Anki'.
+Langki is a comprehensive framework that builds on the core features of Anki flashcards, offering an all-in-one toolkit designed specifically for language learners. The name 'Langki' combines 'language' and 'Anki'.
 
 ## Requirements
 

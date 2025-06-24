@@ -11,7 +11,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Langki',
-  tagline: 'AI-Powered Framework for Language Learning in Anki',
+  tagline: 'The Swiss Army knife for language learning in Anki.',
   favicon: 'img/like-award-favorite-star-svgrepo-com.svg',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
