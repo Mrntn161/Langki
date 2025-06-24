@@ -1,0 +1,26 @@
+{
+  "title": {
+    "message": "Langki",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "Langki",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Tutorial": {
+    "message": "Tutorial",
+    "description": "Navbar item with label Tutorial"
+  },
+  "item.label.Collection": {
+    "message": "Collection",
+    "description": "Navbar item with label Collection"
+  },
+  "item.label.Contact": {
+    "message": "Contact",
+    "description": "Navbar item with label Contact"
+  },
+  "item.label.Pricing": {
+    "message": "Pricing",
+    "description": "Navbar item with label Pricing"
+  }
+}

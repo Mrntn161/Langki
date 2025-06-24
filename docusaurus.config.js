@@ -36,10 +36,18 @@ const config = {
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
-  i18n: {
+i18n: {
     defaultLocale: 'en',
-    locales: ['en'],
+    locales: ['en', 'vi'],
+    localeConfigs: {
+      en: {
+        label: 'English',
+      },
+      vi: {
+        label: 'Tiếng Việt',
+      },
     },
+  },
   plugins: [
     [
       '@docusaurus/plugin-content-blog',
@@ -130,6 +138,9 @@ const config = {
             position: 'left', // Hoặc 'right' tùy bạn muốn
           },{
             type: 'search', // Docusaurus sẽ tự động dùng local search đã cấu hình
+            position: 'right',
+          },{
+            type: 'localeDropdown',
             position: 'right',
           },
         ],
