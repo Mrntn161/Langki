@@ -2,17 +2,17 @@
 sidebar_position: 2
 ---
 
-# Every time I tap to interact with the flashcard, it flips to the back side.
+# Mỗi lần tôi chạm vào màn hình, thẻ flashcard tự động chuyển sang mặt sau
 
-You need to **customize the "tap" action to flip the card** by following these steps:
+Bạn cần **tùy chỉnh thao tác "chạm" để lật thẻ** bằng cách làm theo các bước sau:
 
-1. **Open AnkiMobile** on your iPhone or iPad.
-2. Open any **deck**.
-3. On the review screen, tap the **gear icon ⚙️** in the top-right corner.
-4. Select **"Review Settings"** or **"Settings"** (depending on your version).
-5. Tap on **"Gestures"**.
-6. You'll see several touch regions (e.g., **Top**, **Center**, **Bottom**, etc.).
-7. For the region you want (e.g., **Center**), assign the action **"Show Answer"** or **"Flip Card"**.
-8. Tap **"Done"** to save your changes.
+1. **Mở AnkiMobile** trên iPhone hoặc iPad của bạn.
+2. Mở bất kỳ **bộ thẻ (deck)** nào.
+3. Trên màn hình ôn tập, nhấn vào **biểu tượng bánh răng ⚙️** ở góc trên bên phải.
+4. Chọn **"Cài đặt ôn tập" (Review Settings)** hoặc **"Cài đặt" (Settings)** (tùy vào phiên bản bạn đang dùng).
+5. Nhấn vào mục **"Cử chỉ" (Gestures)**.
+6. Bạn sẽ thấy nhiều vùng cảm ứng (ví dụ: **Trên**, **Giữa**, **Dưới**, v.v.).
+7. Với vùng bạn muốn (ví dụ: **Giữa màn hình**), gán hành động **"Hiển thị đáp án" (Show Answer)** hoặc **"Lật thẻ" (Flip Card)**.
+8. Nhấn **"Xong" (Done)** để lưu thay đổi.
 
-✅ Tip: Assigning **"Show Answer"** to the center region lets you simply tap the middle of the screen to flip the card — very convenient during review.
+✅ Mẹo: Gán hành động **"Hiển thị đáp án"** cho vùng giữa giúp bạn chỉ cần chạm vào giữa màn hình để lật thẻ — rất tiện khi ôn tập.
