@@ -12,7 +12,7 @@ Bộ thẻ này là phiên bản nâng cấp của [4000 Essential English Words
 
 <!--truncate-->
 
-Để tùy chỉnh bộ thẻ, vào template của mẫu thẻ bằng cách nhấp vào "Cards" trong Editor và chỉnh sửa sao cho phù hợp. Đọc [hướng dẫn này](https://langki.net/vi/docs/langki_configuration) để biết thêm chi tiết cách chỉnh sửa.
+Để tùy chỉnh, vào template của mẫu thẻ bằng cách nhấp vào "Cards" trong Editor và chỉnh sửa sao cho phù hợp. Đọc [hướng dẫn này](https://langki.net/vi/docs/langki_configuration) để biết thêm chi tiết cách chỉnh sửa.
 
 Bộ thẻ này tương thích với Anki Desktop, AnkiDroid, AnkiMobile và AnkiWeb. Tuy nhiên, để sử dụng trên Anki Desktop, bạn cần cài đặt [Langki Addon](https://ankiweb.net/shared/info/1400986563).
 
