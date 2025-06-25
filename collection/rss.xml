@@ -14,7 +14,8 @@
             <guid>https://langki.net/collection/English_vocabulary</guid>
             <pubDate>Mon, 02 Jun 2025 00:00:00 GMT</pubDate>
             <description><![CDATA[This template helps you accelerate the process of creating flashcards for English vocabulary. You only need to enter the word you want to learn into the Vocab field, and the AI will automatically generate a flashcard with IPA, definition, and example sentence.]]></description>
-            <content:encoded><![CDATA[<p>This template helps you accelerate the process of creating flashcards for English vocabulary. You only need to enter the word you want to learn into the <strong>Vocab</strong> field, and the AI will automatically generate a flashcard with IPA, definition, and example sentence.</p>
+            <content:encoded><![CDATA[<p>This template helps you accelerate the process of creating flashcards for English vocabulary.</p>
+<p>You only need to enter the word you want to learn into the <strong>Vocab</strong> field, and the AI will automatically generate a flashcard with IPA, definition, and example sentence.</p>
 <p><img decoding="async" loading="lazy" src="https://res.cloudinary.com/dqfb2pujj/image/upload/v1750875212/Langki/wjsy7ddljsljzzsah1tx.gif" alt="" class="img_ev3q"></p>
 <p><strong>Note:</strong> By default, the definition is in English. If you want to change the language, open the template by clicking the <strong>"Cards"</strong> button in the deck editor, then modify the <em>prompt</em> section to ask the AI to provide the definition in your native language.</p>
 <p><img decoding="async" loading="lazy" src="https://res.cloudinary.com/dqfb2pujj/image/upload/v1750492139/Langki/wpl2vsguarqindjfryqj.png" alt="" class="img_ev3q"></p>
