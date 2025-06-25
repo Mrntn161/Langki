@@ -4,10 +4,33 @@
         <title>Langki Blog</title>
         <link>https://langki.net/collection</link>
         <description>Langki Blog</description>
-        <lastBuildDate>Sun, 01 Jun 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 02 Jun 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[English Vocabulary]]></title>
+            <link>https://langki.net/collection/English_vocabulary</link>
+            <guid>https://langki.net/collection/English_vocabulary</guid>
+            <pubDate>Mon, 02 Jun 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[This template helps you accelerate the process of creating flashcards for English vocabulary. You only need to enter the word you want to learn into the Vocab field, and the AI will automatically generate a flashcard with IPA, definition, and example sentence.]]></description>
+            <content:encoded><![CDATA[<p>This template helps you accelerate the process of creating flashcards for English vocabulary. You only need to enter the word you want to learn into the <strong>Vocab</strong> field, and the AI will automatically generate a flashcard with IPA, definition, and example sentence.</p>
+<p><strong>Note:</strong> By default, the definition is in English. If you want to change the language, open the template by clicking the <strong>"Cards"</strong> button in the deck editor, then modify the <em>prompt</em> section to ask the AI to provide the definition in your native language.</p>
+<p><img decoding="async" loading="lazy" src="https://res.cloudinary.com/dqfb2pujj/image/upload/v1750492139/Langki/wpl2vsguarqindjfryqj.png" alt="" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" src="https://res.cloudinary.com/dqfb2pujj/image/upload/v1750872270/Langki/ecxo8hahpnowhnaursgq.png" alt="" class="img_ev3q"></p>
+<p><strong>For words with multiple meanings</strong>, you should add a note in the <strong>"Extra"</strong> field to help the AI understand the correct context and create a flashcard for the right word.</p>
+<p><strong>Each word you enter will generate 2 flashcards</strong>:</p>
+<ul>
+<li>One for recognition.</li>
+<li>One for recall.</li>
+</ul>
+<p>For the <em>recall</em> card, when you enter the correct word, the flashcard will automatically flip to the back. You can also press the <strong>"K"</strong> key to record your answer.</p>
+<p><strong>By default</strong>, AI-generated flashcards include: <em>IPA</em>, <em>definition</em>, and <em>example sentence</em>.<br>
+<!-- -->If you want to add extra information such as: <em>collocations</em>, <em>word family</em>, or <em>synonyms/antonyms</em>, you’ll need to <a href="https://langki.net/docs/langki_configuration#suggested-responses" target="_blank" rel="noopener noreferrer">set up quick responses</a>. For more details on customizing the card template, refer to <a href="https://langki.net/docs/langki_configuration" target="_blank" rel="noopener noreferrer">this guide</a>.</p>
+<p><img decoding="async" loading="lazy" src="https://res.cloudinary.com/dqfb2pujj/image/upload/v1750872639/Langki/hulrrhol6ol6nyoii1ia.png" alt="" class="img_ev3q"></p>]]></content:encoded>
+            <category>Templates</category>
+            <category>English</category>
+        </item>
         <item>
             <title><![CDATA[4000 Essential English Words]]></title>
             <link>https://langki.net/collection/4000_essential_words</link>
