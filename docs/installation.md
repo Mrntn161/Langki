@@ -14,4 +14,4 @@ If you're new to Anki, I recommend going straight to [the Collection](https://la
 
 ## Installation
 
-To get started, install [the Langki add-on](the Langki add-on) and download [the Langki – Prototype note type](https://langki.net/collection/prototype).
+To get started, install [the Langki add-on](https://ankiweb.net/shared/info/1400986563) and download [the Langki – Prototype note type](https://langki.net/collection/prototype).
