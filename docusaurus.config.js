@@ -9,7 +9,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 /** @type {import('@docusaurus/types').Config} */
-const config = {
+let config = {
   title: 'Langki',
   tagline: 'The Swiss Army knife for language learning in Anki.',
   favicon: 'img/like-award-favorite-star-svgrepo-com.svg',
@@ -18,6 +18,7 @@ const config = {
   future: {
     v4: true, // Improve compatibility with the upcoming Docusaurus v4
   },
+
 
   // Set the production url of your site here
   url: 'https://langki.net',

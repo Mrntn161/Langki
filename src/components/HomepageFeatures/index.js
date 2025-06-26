@@ -2,7 +2,11 @@ import clsx from 'clsx';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
 
-const FeatureList = [
+let FeatureList 
+const isVietnamese =
+  typeof window !== 'undefined' && window.location.pathname.startsWith('/vi');
+
+FeatureList = [
   {
     title: 'Seamless Integration',
     Svg: require('@site/static/img/star-mark-svgrepo-com.svg').default,
@@ -58,6 +62,68 @@ const FeatureList = [
     ),
   }
 ];
+
+if (isVietnamese) {
+FeatureList = [
+  {
+    title: 'Dễ dàng tích hợp',
+    Svg: require('@site/static/img/star-mark-svgrepo-com.svg').default,
+    description: (
+      <>
+        Langki là một mẫu thẻ Anki, vì vậy bạn có thể tích hợp thẳng vào quy trình học tập hiện tại, bao gồm các loại thẻ và bộ thẻ Anki bạn đang sử dụng.
+      </>
+    ),
+  },
+  {
+    title: 'Truy cập trên nhiều thiết bị',
+    Svg: require('@site/static/img/devices-svgrepo-com.svg').default,
+    description: (
+      <>
+        Được viết bằng JavaScript, Langki có thể sử dụng trên Anki Desktop, AnkiDroid, AnkiMobile và AnkiWeb, cho phép bạn truy cập dễ dàng trên nhiều thiết bị.
+      </>
+    ),
+  },
+  {
+    title: 'Hỗ trợ đa ngôn ngữ',
+    Svg: require('@site/static/img/language-planet-svgrepo-com.svg').default,
+    description: (
+      <>
+        Hỗ trợ hơn 30 ngôn ngữ.
+      </>
+    ),
+  },
+  {
+    title: 'Đa dạng công cụ trong một',
+    Svg: require('@site/static/img/book-drawing-compass-education-learning-school-study-svgrepo-com.svg').default,
+    description: (
+      <>
+        Tất cả công cụ cần thiết cho người học ngôn ngữ – tích hợp trong một nền tảng: chatbot AI, tạo flashcard tự động, chuyển văn bản thành giọng nói, nhận diện và phân tích giọng nói.
+      </>
+    ),
+  },
+  {
+    title: 'Tính tuỳ biến cao',
+    Svg: require('@site/static/img/book-education-learning-puzzle-school-study-svgrepo-com.svg').default,
+    description: (
+      <>
+        Dễ dàng thiết kế các loại thẻ flashcard với Langki để hỗ trợ nhiều dạng bài luyện tập khác nhau.
+      </>
+    ),
+  },
+  {
+    title: 'Không tốn chi phí để trải nghiệm',
+    Svg: require('@site/static/img/money-svgrepo-com.svg').default,
+    description: (
+      <>
+        Không cần đăng ký – chỉ cần cài đặt addon và tải xuống một bộ thẻ Langki để bắt đầu.
+      </>
+    ),
+  }
+];
+
+}
+
+
 
 function Feature({Svg, title, description}) {
   return (

@@ -9,6 +9,8 @@ import styles from './index.module.css';
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
+  const isVietnamese =
+  typeof window !== 'undefined' && window.location.pathname.startsWith('/vi');
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
@@ -18,13 +20,13 @@ function HomepageHeader() {
         <p className="hero__subtitle">
           <img src="/img/swiss-army-knife.png" alt="Swiss Army Knife" style={{ height: '2em', verticalAlign: 'middle' }} />
           {' '}
-          {siteConfig.tagline}
+          {isVietnamese? "Bộ công cụ toàn diện cho người học ngôn ngữ trên Anki." : siteConfig.tagline}
         </p>
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
             to="/docs/installation">
-            GET STARTED
+              GET STARTED
           </Link>
         </div>
       </div>
