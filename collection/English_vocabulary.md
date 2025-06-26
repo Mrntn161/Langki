@@ -1,7 +1,7 @@
 ---
 title: "English Vocabulary"
 date: 2025-06-02
-description: "This template helps you accelerate the process of creating flashcards for English vocabulary. You only need to enter the word you want to learn into the Vocab field, and the AI will automatically generate a flashcard with IPA, definition, and example sentence."
+description: "This template helps you accelerate the process of creating flashcards for English vocabulary."
 tags: [Templates, English]
 image: "https://res.cloudinary.com/dqfb2pujj/image/upload/v1750872094/Langki/j5nfqgtm6bpxuev93ztl.png"
 ---

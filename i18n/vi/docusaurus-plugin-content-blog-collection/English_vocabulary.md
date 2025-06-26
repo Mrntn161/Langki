@@ -1,7 +1,7 @@
 ---
 title: "English Vocabulary"
 date: 2025-06-02
-description: "Mẫu thẻ này giúp bạn tối ưu hoá việc soạn từ vựng tiếng Anh. Bạn chỉ cần nhập từ cần học vào trường Vocab, AI sẽ tự động tạo flashcard bao gồm phiên âm, định nghĩa và câu ví dụ đầy đủ."
+description: "Mẫu thẻ này giúp bạn tối ưu hoá việc soạn từ vựng tiếng Anh."
 tags: [Mẫu Thẻ, Tiếng Anh]
 image: "https://res.cloudinary.com/dqfb2pujj/image/upload/v1750872094/Langki/j5nfqgtm6bpxuev93ztl.png"
 ---

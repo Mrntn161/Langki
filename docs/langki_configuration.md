@@ -124,7 +124,7 @@ If you're using Anki in dark mode, you can also switch the chatbot to dark mode.
 
 Running Langki’s features costs money on the server side. While each request isn’t that expensive on its own, the total can grow quickly as more users start using the tool. That’s why a daily quota comes into place.
 
-Subscribers will receive an API key to unlock this quota. The key is embedded directly in the Langki template so it works fine in both Anki desktop and Ankiweb, and subscribers have to remove the key before sharing their decks.
+Subscribers will receive an API key to unlock this quota. The key is embedded directly in the Langki template so it works fine across platforms, and subscribers have to remove the key before sharing their decks.
 
 The add-on helps conveniently add or remove the API key from all Langki templates in the profile.
 
@@ -133,5 +133,5 @@ The add-on helps conveniently add or remove the API key from all Langki template
 ![](https://res.cloudinary.com/dqfb2pujj/image/upload/v1750188943/Langki/y8c9gmnlkvpthxhzwl5h.png)
 
 :::warning
-You may use the API key across devices; however, do not share it with others. The key will be revoked if misuse by multiple individuals is detected.
+You can use the API key across devices; however, do not share it with others. The key will be revoked if misuse by multiple individuals is detected.
 :::
