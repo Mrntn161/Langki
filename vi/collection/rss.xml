@@ -4,10 +4,41 @@
         <title>Langki Blog</title>
         <link>https://langki.net/vi/collection</link>
         <description>Langki Blog</description>
-        <lastBuildDate>Mon, 02 Jun 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 03 Jun 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>vi</language>
+        <item>
+            <title><![CDATA[Từ vựng tiếng Trung]]></title>
+            <link>https://langki.net/vi/collection/Chinese_vocabulary</link>
+            <guid>https://langki.net/vi/collection/Chinese_vocabulary</guid>
+            <pubDate>Tue, 03 Jun 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[This Langki template helps you quickly create Chinese vocabulary flashcards.]]></description>
+            <content:encoded><![CDATA[<p><strong>Mẫu thẻ Langki này giúp bạn tạo thẻ từ vựng tiếng Trung một cách nhanh chóng.</strong></p>
+<p>Bạn chỉ cần nhập từ cần học vào trường 'Vocab' — phần còn lại cứ để AI lo, thẻ flashcard sẽ được tạo tự động cho bạn.</p>
+<p><img decoding="async" loading="lazy" src="https://res.cloudinary.com/dqfb2pujj/image/upload/v1751019147/Langki/ivta9ankfsuf9tjetwdx.gif" alt="" class="img_ev3q"></p>
+<p>Với mỗi từ bạn nhập, hệ thống sẽ tạo ra hai thẻ flashcard: một để luyện tập nhận diện, và một để luyện truy xuất từ vựng.</p>
+<p>Mỗi thẻ flashcard bao gồm: định nghĩa, pinyin, câu ví dụ và hình minh họa thứ tự nét viết.
+Khi luyện truy xuất từ vựng, bạn có thể gõ đáp án, phát âm thành tiếng, hoặc viết tay để ghi nhớ hiệu quả hơn.</p>
+<p><strong>Mặc định</strong>, thẻ do AI tạo sẽ bao gồm: <em>pinyin</em>, <em>định nghĩa</em>, và <em>câu ví dụ</em>.</p>
+<p>Nếu bạn muốn bổ sung thêm thông tin như: pinyin cho câu ví dụ, từ đồng nghĩa/trái nghĩa, v.v.,
+bạn có thể <a href="https://langki.net/vi/docs/langki_configuration/#g%E1%BB%A3i-%C3%BD-ph%E1%BA%A3n-h%E1%BB%93i" target="_blank" rel="noopener noreferrer">thiết lập các phản hồi nhanh</a> để tra cứu thuận tiện hơn.
+Để tùy chỉnh sâu hơn, hãy tham khảo <a href="https://langki.net/vi/docs/langki_configuration" target="_blank" rel="noopener noreferrer">hướng dẫn chi tiết tại đây</a>.</p>
+<p><img decoding="async" loading="lazy" src="https://res.cloudinary.com/dqfb2pujj/image/upload/v1750872639/Langki/hulrrhol6ol6nyoii1ia.png" alt="" class="img_ev3q"></p>
+<blockquote>
+<p><strong>Lưu ý:</strong>
+Định nghĩa do AI tạo mặc định sẽ là tiếng Anh.
+Nếu bạn muốn chuyển sang tiếng Việt, hãy vào phần 'Card' và chỉnh sửa prompt để yêu cầu trả về định nghĩa bằng ngôn ngữ mong muốn.
+Ngoài ra, thẻ flashcard chỉ được khởi tạo khi cả hai trường 'Front' và 'Back' đang để trống.</p>
+</blockquote>
+<p><img decoding="async" loading="lazy" src="https://res.cloudinary.com/dqfb2pujj/image/upload/v1750492139/Langki/wpl2vsguarqindjfryqj.png" alt="" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" src="https://res.cloudinary.com/dqfb2pujj/image/upload/v1751019308/Langki/a4z6envkucumtfaklp6w.png" alt="" class="img_ev3q"></p>
+<p>Mẫu thẻ này tương thích với Anki Desktop, AnkiDroid, AnkiMobile và AnkiWeb.
+Tuy nhiên, để sử dụng mẫu thẻ đúng cách trên Anki Desktop, bạn cần cài đặt <a href="https://ankiweb.net/shared/info/1400986563" target="_blank" rel="noopener noreferrer">tiện ích bổ sung Langki</a>.</p>
+<a href="https://drive.google.com/file/d/1KOSS3iJ4_ilOc5W4cHc_DQxw69KKMieq/view?usp=sharing" target="_blank" class="download-btn"><p>Download</p></a>]]></content:encoded>
+            <category>Templates</category>
+            <category>Chinese</category>
+        </item>
         <item>
             <title><![CDATA[English Vocabulary]]></title>
             <link>https://langki.net/vi/collection/English_vocabulary</link>

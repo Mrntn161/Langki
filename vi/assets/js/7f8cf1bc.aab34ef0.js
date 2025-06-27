@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[4193],{1447:e=>{e.exports=JSON.parse('{"metadata":{"permalink":"/vi/collection","page":1,"postsPerPage":5,"totalPages":1,"totalCount":5,"blogDescription":"Langki Collection","blogTitle":"Collection"}}')}}]);
