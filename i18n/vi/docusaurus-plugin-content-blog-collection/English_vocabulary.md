@@ -35,3 +35,7 @@ Với thẻ _recall_, khi bạn nhập đúng từ cần điền, flashcard sẽ
 Nếu bạn muốn bổ sung thêm thông tin như: _collocations_, _từ cùng họ (word family)_, _từ đồng nghĩa/trái nghĩa_, bạn cần [thiết lập các phản hồi nhanh](https://langki.net/vi/docs/langki_configuration/#g%E1%BB%A3i-%C3%BD-ph%E1%BA%A3n-h%E1%BB%93i) để tra cứu cho thuận tiện. Chi tiết tuỳ chỉnh mẫu thẻ bạn có thể tìm hiểu thâm [tại đây](https://langki.net/vi/docs/langki_configuration).
 
 ![](https://res.cloudinary.com/dqfb2pujj/image/upload/v1750872639/Langki/hulrrhol6ol6nyoii1ia.png)
+
+<a href="https://drive.google.com/file/d/14KOJLMcXpPP5lieXhk-dHXKxB3qCHFC8/view?usp=sharing" target="_blank" class="download-btn">
+  Download
+</a>

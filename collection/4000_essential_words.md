@@ -20,3 +20,7 @@ It is compatible with Anki Desktop, AnkiDroid, AnkiMobile, and AnkiWeb. However,
 
 ![](https://res.cloudinary.com/dqfb2pujj/image/upload/v1750492280/Langki/hnsxrssybvwuga7i0pdh.png)
 ![](https://res.cloudinary.com/dqfb2pujj/image/upload/v1750492296/Langki/d58jgiduy4ihdxshiivc.png)
+
+<a href="https://ankiweb.net/shared/info/701841752" target="_blank" class="download-btn">
+  Download
+</a>

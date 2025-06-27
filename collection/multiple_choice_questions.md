@@ -25,3 +25,7 @@ Modify the template if you want to change the definition in the flashcard
 ![](https://res.cloudinary.com/dqfb2pujj/image/upload/v1750527561/Langki/uvbxmvzcgprz3c2wbdqs.png)
 
 **Important**: AI is only triggered to generate the flashcard when both the Front and Back fields are empty.
+
+<a href="https://ankiweb.net/shared/info/1258502820" target="_blank" class="download-btn">
+  Download
+</a>

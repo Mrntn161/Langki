@@ -35,3 +35,7 @@ For the _recall_ card, when you enter the correct word, the flashcard will autom
 If you want to add extra information such as: _collocations_, _word family_, or _synonyms/antonyms_, you’ll need to [set up quick responses](https://langki.net/docs/langki_configuration#suggested-responses). For more details on customizing the card template, refer to [this guide](https://langki.net/docs/langki_configuration).
 
 ![](https://res.cloudinary.com/dqfb2pujj/image/upload/v1750872639/Langki/hulrrhol6ol6nyoii1ia.png)
+
+<a href="https://drive.google.com/file/d/14KOJLMcXpPP5lieXhk-dHXKxB3qCHFC8/view?usp=sharing" target="_blank" class="download-btn">
+  Download
+</a>
