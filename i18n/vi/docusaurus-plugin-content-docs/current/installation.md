@@ -14,4 +14,4 @@ Nếu bạn là người mới bắt đầu, mình khuyên bạn nên truy cập
 
 ## Cài đặt
 
-Để bắt đầu, hãy cài đặt [Langki addon](https://ankiweb.net/shared/info/1400986563) và [tải xuống mẫu thẻ Langki - Prototype](https://langki.net/vi/collection/prototype).
+Để bắt đầu, hãy cài đặt [Langki addon](https://ankiweb.net/shared/info/1400986563) và [tải xuống mẫu thẻ Langki - Prototype](https://ankiweb.net/shared/info/1038537663).

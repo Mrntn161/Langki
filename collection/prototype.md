@@ -32,3 +32,5 @@ The template is compatible with Anki Desktop, AnkiDroid, AnkiMobile, and AnkiWeb
     height="500"
   />
 </div>
+
+[Link down](https://ankiweb.net/shared/info/1038537663)

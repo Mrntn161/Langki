@@ -32,3 +32,5 @@ Mẫu thẻ tương thích với Anki Desktop, AnkiDroid, AnkiMobile và AnkiWeb
     height="500"
   />
 </div>
+
+[Link down](https://ankiweb.net/shared/info/1038537663)
