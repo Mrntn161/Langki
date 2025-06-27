@@ -39,12 +39,12 @@ Tuy nhiên, để sử dụng mẫu thẻ trên Anki Desktop, bạn cần cài �
         <category label="Tiếng Trung" term="Tiếng Trung"/>
     </entry>
     <entry>
-        <title type="html"><![CDATA[English Vocabulary]]></title>
+        <title type="html"><![CDATA[Từ vựng tiếng Anh]]></title>
         <id>https://langki.net/vi/collection/English_vocabulary</id>
         <link href="https://langki.net/vi/collection/English_vocabulary"/>
         <updated>2025-06-02T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Mẫu thẻ này giúp bạn tối ưu hoá việc soạn từ vựng tiếng Anh.]]></summary>
-        <content type="html"><![CDATA[<p>Mẫu thẻ này giúp bạn tối ưu hoá việc soạn từ vựng tiếng Anh.</p>
+        <summary type="html"><![CDATA[Mẫu thẻ Langki này giúp bạn tạo thẻ từ vựng tiếng Anh một cách nhanh chóng.]]></summary>
+        <content type="html"><![CDATA[<p>Mẫu thẻ Langki này giúp bạn tạo thẻ từ vựng tiếng Anh một cách nhanh chóng.</p>
 <p>Bạn chỉ cần nhập từ cần học vào trường "Vocab", AI sẽ tự động tạo flashcard bao gồm phiên âm, định nghĩa và câu ví dụ đầy đủ.</p>
 <p><img decoding="async" loading="lazy" src="https://res.cloudinary.com/dqfb2pujj/image/upload/v1750875212/Langki/wjsy7ddljsljzzsah1tx.gif" alt="" class="img_ev3q"></p>
 <p><strong>Lưu ý:</strong> Mặc định, bộ thẻ sẽ sử dụng định nghĩa bằng tiếng Anh. Nếu bạn muốn thay đổi ngôn ngữ, hãy mở mẫu thẻ bằng cách nhấn vào nút "Cards" trong trình chỉnh sửa bộ thẻ, sau đó chỉnh sửa phần <em>prompt</em> để yêu cầu AI cung cấp định nghĩa bằng ngôn ngữ mẹ đẻ của bạn.</p>
