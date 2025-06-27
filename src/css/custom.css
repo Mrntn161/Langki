@@ -37,6 +37,7 @@
 /* src/css/custom.css */
 
 .filter-button {
+
   margin: 0.25rem 0.5rem; /* Điều chỉnh margin */
   padding: 0.5rem 1rem;
   cursor: pointer;
@@ -78,3 +79,33 @@
     align-items: center;
   }
 }
+
+  .download-btn {
+    margin-top: 30px;
+    background-color: #4CAF50;
+    /* màu xanh lá */
+    color: white;
+    text-decoration: none;
+    border-radius: 999px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    transition: background-color 0.3s;
+  }
+
+  .download-btn:hover {
+    background-color: #388e3c;
+    /* màu xanh đậm hơn khi hover */
+  }
+
+  .download-btn p {
+    margin: 0;
+  }
+
+  .download-btn::after {
+    content: "↓";
+    font-size: 18px;
+  }

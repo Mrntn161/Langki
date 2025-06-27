@@ -33,4 +33,6 @@ The template is compatible with Anki Desktop, AnkiDroid, AnkiMobile, and AnkiWeb
   />
 </div>
 
-[Link down](https://ankiweb.net/shared/info/1038537663)
+<a href="https://ankiweb.net/shared/info/1038537663" target="_blank" class="download-btn">
+  Download
+</a>
