@@ -12,7 +12,7 @@
         <id>https://langki.net/vi/collection/Chinese_vocabulary</id>
         <link href="https://langki.net/vi/collection/Chinese_vocabulary"/>
         <updated>2025-06-03T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This Langki template helps you quickly create Chinese vocabulary flashcards.]]></summary>
+        <summary type="html"><![CDATA[Mẫu thẻ Langki này giúp bạn tạo thẻ từ vựng tiếng Trung một cách nhanh chóng.]]></summary>
         <content type="html"><![CDATA[<p><strong>Mẫu thẻ Langki này giúp bạn tạo thẻ từ vựng tiếng Trung một cách nhanh chóng.</strong></p>
 <p>Bạn chỉ cần nhập từ cần học vào trường 'Vocab' — phần còn lại cứ để AI lo, thẻ flashcard sẽ được tạo tự động cho bạn.</p>
 <p><img decoding="async" loading="lazy" src="https://res.cloudinary.com/dqfb2pujj/image/upload/v1751019147/Langki/ivta9ankfsuf9tjetwdx.gif" alt="" class="img_ev3q"></p>
@@ -33,10 +33,10 @@ Ngoài ra, thẻ flashcard chỉ được khởi tạo khi cả hai trường 'F
 <p><img decoding="async" loading="lazy" src="https://res.cloudinary.com/dqfb2pujj/image/upload/v1750492139/Langki/wpl2vsguarqindjfryqj.png" alt="" class="img_ev3q"></p>
 <p><img decoding="async" loading="lazy" src="https://res.cloudinary.com/dqfb2pujj/image/upload/v1751019308/Langki/a4z6envkucumtfaklp6w.png" alt="" class="img_ev3q"></p>
 <p>Mẫu thẻ này tương thích với Anki Desktop, AnkiDroid, AnkiMobile và AnkiWeb.
-Tuy nhiên, để sử dụng mẫu thẻ đúng cách trên Anki Desktop, bạn cần cài đặt <a href="https://ankiweb.net/shared/info/1400986563" target="_blank" rel="noopener noreferrer">tiện ích bổ sung Langki</a>.</p>
+Tuy nhiên, để sử dụng mẫu thẻ trên Anki Desktop, bạn cần cài đặt <a href="https://ankiweb.net/shared/info/1400986563" target="_blank" rel="noopener noreferrer">Langki Addon</a>.</p>
 <a href="https://drive.google.com/file/d/1KOSS3iJ4_ilOc5W4cHc_DQxw69KKMieq/view?usp=sharing" target="_blank" class="download-btn"><p>Download</p></a>]]></content>
-        <category label="Templates" term="Templates"/>
-        <category label="Chinese" term="Chinese"/>
+        <category label="Mẫu Thẻ" term="Mẫu Thẻ"/>
+        <category label="Tiếng Trung" term="Tiếng Trung"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[English Vocabulary]]></title>
