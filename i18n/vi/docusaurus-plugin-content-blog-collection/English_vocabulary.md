@@ -1,14 +1,14 @@
 ---
-title: "English Vocabulary"
+title: "Từ vựng tiếng Anh"
 date: 2025-06-02
-description: "Mẫu thẻ này giúp bạn tối ưu hoá việc soạn từ vựng tiếng Anh."
+description: "Mẫu thẻ Langki này giúp bạn tạo thẻ từ vựng tiếng Anh một cách nhanh chóng."
 tags: [Mẫu Thẻ, Tiếng Anh]
 image: "https://res.cloudinary.com/dqfb2pujj/image/upload/v1750872094/Langki/j5nfqgtm6bpxuev93ztl.png"
 ---
 
-# English Vocabulary
+# Từ vựng tiếng Anh
 
-Mẫu thẻ này giúp bạn tối ưu hoá việc soạn từ vựng tiếng Anh.
+Mẫu thẻ Langki này giúp bạn tạo thẻ từ vựng tiếng Anh một cách nhanh chóng.
 
 <!--truncate-->
 

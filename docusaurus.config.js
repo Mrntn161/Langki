@@ -134,8 +134,8 @@ i18n: {
               label: 'Contact',
               position: 'left',   // Or 'right' if you prefer
           },{
-            to: '/subscription', // Đường dẫn này sẽ khớp với tên tệp src/pages/subscription.js
-            label: 'Pricing',
+            to: '/donate', // Đường dẫn này sẽ khớp với tên tệp src/pages/subscription.js
+            label: 'Donate',
             position: 'left', // Hoặc 'right' tùy bạn muốn
           },{
             type: 'search', // Docusaurus sẽ tự động dùng local search đã cấu hình

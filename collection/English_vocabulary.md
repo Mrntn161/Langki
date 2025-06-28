@@ -36,6 +36,8 @@ If you want to add extra information such as: _collocations_, _word family_, or 
 
 ![](https://res.cloudinary.com/dqfb2pujj/image/upload/v1750872639/Langki/hulrrhol6ol6nyoii1ia.png)
 
+It is compatible with Anki Desktop, AnkiDroid, AnkiMobile, and AnkiWeb. However, to use the template properly on Anki Desktop, you’ll need to install [the Langki add-on](https://ankiweb.net/shared/info/1400986563).
+
 <a href="https://drive.google.com/file/d/14KOJLMcXpPP5lieXhk-dHXKxB3qCHFC8/view?usp=sharing" target="_blank" class="download-btn">
   Download
 </a>
