@@ -18,9 +18,7 @@ function HomepageHeader() {
           {siteConfig.title}
         </Heading>
         <p className="hero__subtitle">
-          <img src="/img/swiss-army-knife.png" alt="Swiss Army Knife" style={{ height: '2em', verticalAlign: 'middle' }} />
-          {' '}
-          {isVietnamese? "Bộ công cụ toàn diện cho người học ngôn ngữ trên Anki." : siteConfig.tagline}
+          {isVietnamese? "Nền tảng học ngôn ngữ tích hợp AI trên Anki." : siteConfig.tagline}
         </p>
         <div className={styles.buttons}>
           <Link

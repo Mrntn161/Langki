@@ -35,7 +35,7 @@ FeatureList = [
     ),
   },
   {
-    title: 'Battery-Included',
+    title: 'Batteries-included',
     Svg: require('@site/static/img/book-drawing-compass-education-learning-school-study-svgrepo-com.svg').default,
     description: (
       <>

@@ -11,7 +11,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 let config = {
   title: 'Langki',
-  tagline: 'The Swiss Army knife for language learning in Anki.',
+  tagline: 'AI-powered framework for language learning in Anki',
   favicon: 'img/like-award-favorite-star-svgrepo-com.svg',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -172,7 +172,7 @@ i18n: {
               },
               {
                 label: 'Email',
-                href: 'mailto:mrntn281@gmail.com',
+                href: 'mailto:mrntn281@langki.net',
               },
             ],
           },
